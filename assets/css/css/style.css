@@ -37,9 +37,13 @@
                   margin: 10px auto;
                }
 
-        .win{background:#f9690e; color: #ffffff;}       
+        .win{background:#f9690e; color: #ffffff;}      
 
+<!---- !! HTML !! ----> 
+
+<!-- Beef here wiht the </style> -->
     </style>
+<!--   /\  may be in the worng place -->
 
 </head>
 
@@ -92,7 +96,8 @@
             van box8 = document.getElementById("box8");
             van box9 = document.getElementById("box9");
 
-    // get all possibilities                              
+    // get all possibilities    
+                              
             if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
             selectWinnerBoxes(box1,box2,box3);
 
@@ -118,7 +123,37 @@
             selectWinnerBoxes(box3,box5,box7);   
           
         }
- 
+
+    // set event onclick
+
+        for( var i = 0; i < boxes.legth; i++){
+            boxes [i].onclick = funtion(){
+
+    // not allow to change this value for this box
+
+                if(this.innerHTML !== "X" && this.innerHTML !== "O"){
+                if(X_or_O%2 === 0){
+                    console.log(X_or_O);
+                    this.innerHTML = "X";
+                    turn.innerHTML = "O Turn Now";
+                    getWinner ();
+                    X_or_O += 1;
+                } 
+                
+                eles{
+                    console.log(X_or_O);
+                    this.innerHTML = "O";
+                    turn.innerHTML = "X Turn Now";
+                    getWinner();
+                    X_or_O += 1;
+                }
+        }   
+
+
+    <!-- Beef here wiht the </style> form the one a the top -->
+        </style>
+    <!--   /\  may be in the worng place -->
+
     </script>
 
     </body>
