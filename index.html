@@ -1,1 +1,78 @@
 <!DOCTYPE html>
+
+
+<!-- Beef here wiht the </style> -->
+</style>
+<!--   /\  may be in the worng place -->
+
+</head>
+
+    <body>
+        <div class= " container" id">
+<!-- will show X or O on the div click -->        
+        
+        <span id="turn">Play</span> 
+
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+        
+        </div>
+<!-- Play Again or reset All must be ready -->
+         
+        <button onclick="replay()">Paly Again</buttton>
+
+    <script>
+
+        var turn = document.getElementById("turn"),
+    // boxes => all boxes 
+    // X_or_O => to set X or  into the box
+                 boxes = documnet.querySelwctorAll("#main div"), X_or_O = 0;
+
+<!-- Will have to see is this will work may need .function -->        
+
+        function selectWinnerBoxes(b1, b2, b3){
+            b1.classsList.add("win");
+            b2.classsList.add("win");
+            b3.classsList.add("win");
+            turn.innerHTML = b1.innerHTML + "Won Congrats";
+            turn.style.fontSize = "40px";
+        }
+
+        <!--Footer-->
+<br>
+
+<!-- Credit for link come's for my LoveRuning Project-->
+<footer>
+    
+    <ul class="social-networks">
+      <il>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i>
+        </a></li>
+
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i> 
+        </a></li>
+
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i>
+        </a></li>
+
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> 
+        </a></li>
+
+      </il>
+    </ul>
+  
+</footer>
+   <script defer async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+ </script>
+    
+ </body>
+ 
+</html> 
+        

@@ -2,8 +2,8 @@
 <!DOCTYPE <html>
 
     <head>
-          <title> Mini Game's Tic Tac Toe & Snake. M2 Javascript</title>
-          <meta charset= "windown-1252>
+          <title> Mini Game's Tic Tac Toe & Snake</title>
+          <meta charset= "windown-1252">
           <meta name="viewport contact="width-device, initial-scale=1.0">
 
     <style>
@@ -85,7 +85,7 @@
             turn.style.fontSize = "40px";
         }
 
-        .function getWinner(){
+        function getWinner(){
             van box1 = document.getElementById("box1");
             van box2 = document.getElementById("box2");
             van box3 = document.getElementById("box3");
@@ -131,23 +131,41 @@
 
     // not allow to change this value for this box
 
-                if(this.innerHTML !== "X" && this.innerHTML !== "O"){
-                if(X_or_O%2 === 0){
-                    console.log(X_or_O);
-                    this.innerHTML = "X";
-                    turn.innerHTML = "O Turn Now";
-                    getWinner ();
-                    X_or_O += 1;
-                } 
+            if(this.innerHTML !== "X" && this.innerHTML !== "O"){
+            if(X_or_O%2 === 0){
+                console.log(X_or_O);
+                this.innerHTML = "X";
+                turn.innerHTML = "O Turn Now";
+                getWinner ();
+                X_or_O += 1;
+            } 
                 
-                eles{
-                    console.log(X_or_O);
-                    this.innerHTML = "O";
-                    turn.innerHTML = "X Turn Now";
-                    getWinner();
-                    X_or_O += 1;
-                }
-        }   
+            eles{
+                console.log(X_or_O);
+                this.innerHTML = "O";
+                turn.innerHTML = "X Turn Now";
+                getWinner();
+                 X_or_O += 1;}
+            }
+        };
+        
+    }
+
+        function replay(){
+            for(var i = 0; i < boxes.length; i++){
+                boxes[i].classList.remove("win");
+                boxes[i].classHTML = "";
+                turn.innerHTML = "Play";
+                turn.style.fontSize = "25px"
+            }
+
+        function replay(){
+            for(var i = 0; i < boxes.lenght; i++){
+                boxes [i].class
+            }
+        }    
+    }
+
 
 
     <!-- Beef here wiht the </style> form the one a the top -->
@@ -157,5 +175,72 @@
     </script>
 
     </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- footer--> 
+
+
+.footer-container-desktop {
+    background-color: #dbdbdc;
+    color: #8086ed;
+    margin-top: 90px;
+    height: 150px;
+}
+
+.footer-container-desktop ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+}
+.footer-container-desktop il {
+    justify-content: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-size: 21;
+}
+.footer-ctas {
+    float: left;
+}
 
 </html>
