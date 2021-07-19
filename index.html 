@@ -1,3 +1,33 @@
+<!DOCTYPE <html>
+  <head>
+    <title> Mini Game's Tic Tac Toe & Snake. M2 Javascript</title>
+    /* <meta charset= "windown-1252>*/ 
+    <meta name="viewport contact="width-device, initial-scale=1.0">
+
+    <style>
+        *{box-sizing: border-box}
+
+        .container{width: 300px;
+                   overflow: hidden;
+                   margin: 50px auto 0 auto;
+                }
+        .container span{ width: 100%;
+        display: block;
+        text-alingn: center;
+        font-family: sans-serif;
+
+        }
+
+
+    </style>
+
+
+
+
+
+</head>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
