@@ -3,7 +3,7 @@
 
     <head>
           <title> Mini Game's Tic Tac Toe & Snake. M2 Javascript</title>
-         /* <meta charset= "windown-1252>*/ 
+          <meta charset= "windown-1252>
           <meta name="viewport contact="width-device, initial-scale=1.0">
 
     <style>
@@ -62,14 +62,56 @@
         </div>
 <!-- Play Again or reset All must be ready -->
          
-         <button onclick="replay()">Paly Again</buttton>
+        <button onclick="replay()">Paly Again</buttton>
+
     <script>
-             var turn = document.getElementById("tuen"),
-             // boxes => all boxes 
-             // X_or_O => to set X or  into the box
-                 boxes = documnet.querySelwctorAll("#mian div"), X_or_O = 0;
 
+        var turn = document.getElementById("turn"),
+    // boxes => all boxes 
+    // X_or_O => to set X or  into the box
+                 boxes = documnet.querySelwctorAll("#main div"), X_or_O = 0;
 
+<!-- Will have to see is this will work may need .function -->        
+
+        function selectWinnerBoxes(b1, b2, b3){
+            b1.classsList.add("win");
+            b2.classsList.add("win");
+            b3.classsList.add("win");
+            turn.innerHTML = b1.innerHTML + "Won Congrats";
+            turn.style.fontSize = "40px";
+        }
+
+        .function getWinner(){
+            van box1 = document.getElementById("box1");
+            van box2 = document.getElementById("box2");
+            van box3 = document.getElementById("box3");
+            van box4 = document.getElementById("box4");
+            van box5 = document.getElementById("box5");
+            van box6 = document.getElementById("box6");
+            van box7 = document.getElementById("box7");
+            van box8 = document.getElementById("box8");
+            van box9 = document.getElementById("box9");
+
+    // get all possibilities                              
+            if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
+            selectWinnerBoxes(box1,box2,box3);
+
+            if(box4.innerHTML !== "" && box4.innerHTML === box5.innerHTML && box4,innerHTML === box6.innerHTML)
+            selectWinnerBoxes(box4,box5,box6);
+
+            if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
+            selectWinnerBoxes(box1,box2,box3);
+
+            if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
+            selectWinnerBoxes(box1,box2,box3);
+
+            if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
+            selectWinnerBoxes(box1,box2,box3);
+          
+        
+        }
+ 
+    </script>
 
     </body>
 
