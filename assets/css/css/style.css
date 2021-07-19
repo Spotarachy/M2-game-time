@@ -1,9 +1,10 @@
 /* css */ 
 <!DOCTYPE <html>
-  <head>
-    <title> Mini Game's Tic Tac Toe & Snake. M2 Javascript</title>
-    /* <meta charset= "windown-1252>*/ 
-    <meta name="viewport contact="width-device, initial-scale=1.0">
+
+    <head>
+          <title> Mini Game's Tic Tac Toe & Snake. M2 Javascript</title>
+         /* <meta charset= "windown-1252>*/ 
+          <meta name="viewport contact="width-device, initial-scale=1.0">
 
     <style>
         *{box-sizing: border-box}
@@ -36,11 +37,40 @@
                   margin: 10px auto;
                }
 
+        .win{background:#f9690e; color: #ffffff;}       
+
     </style>
+
 </head>
 
-<body>
+    <body>
+        <div class= " container" id">
+<!-- will show X or O on the div click -->        
+        
+        <span id="turn">Play</span> 
 
-</body>
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+        
+        </div>
+<!-- Play Again or reset All must be ready -->
+         
+         <button onclick="replay()">Paly Again</buttton>
+    <script>
+             var turn = document.getElementById("tuen"),
+             // boxes => all boxes 
+             // X_or_O => to set X or  into the box
+                 boxes = documnet.querySelwctorAll("#mian div"), X_or_O = 0;
+
+
+
+    </body>
 
 </html>
