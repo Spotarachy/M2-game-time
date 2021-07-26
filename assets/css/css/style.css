@@ -1,14 +1,15 @@
 /* css */ 
-<!DOCTYPE <html>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
-    <head>
-          <title> Mini Game's Tic Tac Toe & Snake</title>
-          <meta charset= "windown-1252">
-          <meta name="viewport contact="width-device, initial-scale=1.0">
-    </head>      
 
-    <style>
         *{box-sizing: border-box}
+
+        .h1 {
+            font-family: sans-serif;
+            text-align: center;
+            font-size: medium;
+            color: #000;
+        }
 
         .container{width: 300px;
                    overflow: hidden;
@@ -17,7 +18,7 @@
         .container span{width: 100%;
                   display: block;
                   text-align: center;
-                  font-family: sans-serif;
+                  font-family: 'open-sans', sans-serif;
                   color: #8086ED;
                   background-color: #DBDBDC;
                  }
