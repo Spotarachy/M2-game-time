@@ -23,12 +23,13 @@
                   background-color: #DBDBDC;
                  }
         .container .box:hover{background: rgba(10, 10, 10, 0.5);
-                              color: #ffffff;
+                              color: gold;
                             
-                }
+                } /* the gold, need to be #fffffff /\*/
 
         button {background: #fc0e28;
-                  color: #ffffff;
+                  color: greenyellow;
+                /* the greenyellow, need to be #fffffff /\*/
                   font-weight: bold;
                   border: 1px solid yellowgreen;
                   cursor: pointer;
@@ -185,29 +186,30 @@
 <!--- footer--> 
 
 
-.footer-container-desktop {
-    background-color: #dbdbdc;
-    color: #8086ed;
-    margin-top: 90px;
-    height: 150px;
-}
+        .footer-container-desktop {
+             background-color: #dbdbdc;
+             color: #8086ed;
+             margin-top: 90px;
+             height: 150px;
+        }
 
-.footer-container-desktop ul {
-    list-style: none;
-    text-align: left;
-    margin-top: 30px;
-}
-.footer-container-desktop il {
-    justify-content: center;
-    vertical-align: middle;
-    letter-spacing: 1px;
-    font-size: 21;
-}
-.footer-ctas {
-    float: left;
-}
+        .footer-container-desktop ul {
+             list-style: none;
+             text-align: left;
+             margin-top: 30px;
+        }
 
-</style>
+        .footer-container-desktop il {
+             justify-content: center;
+             vertical-align: middle;
+             letter-spacing: 1px;
+             font-size: 21;
+        }
+
+        .footer-ctas {
+             float: left;
+        }
+
 
 <script src="assets/js/script.js"></script>
 </html>
