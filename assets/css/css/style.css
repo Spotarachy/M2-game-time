@@ -5,6 +5,7 @@
           <title> Mini Game's Tic Tac Toe & Snake</title>
           <meta charset= "windown-1252">
           <meta name="viewport contact="width-device, initial-scale=1.0">
+    </head>      
 
     <style>
         *{box-sizing: border-box}
@@ -38,7 +39,7 @@
                }
 
         .win{background:#f9690e; color: #ffffff;}      
-
+/*
 <!---- !! HTML !! ----> 
 
 <!-- Beef here wiht the </style> -->
@@ -67,8 +68,10 @@
 <!-- Play Again or reset All must be ready -->
          
         <button onclick="replay()">Paly Again</buttton>
-
-    <script>
+*/
+    
+/*
+<script>
 
         var turn = document.getElementById("turn"),
     // boxes => all boxes 
@@ -176,47 +179,7 @@
 
     </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 <!--- footer--> 
 
@@ -243,4 +206,7 @@
     float: left;
 }
 
+</style>
+
+<script src="assets/js/script.js"></script>
 </html>

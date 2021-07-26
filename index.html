@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
-
-<!-- Beef here wiht the </style> -->
-</style>
-<!--   /\  may be in the worng place -->
+<head>
+     <title> Mini Games Tic Tac Toe & Snake</title>
+     <meta charset="windonw-1252">
+     <meta name="viewport contact=width-device.initial-scale=1.0">
 
 </head>
 
-    <body>
-        <div class= " container" id">
+     <body>
+        <div class= " container" id>
 <!-- will show X or O on the div click -->        
         
         <span id="turn">Play</span> 
@@ -32,10 +32,10 @@
 
         var turn = document.getElementById("turn"),
     // boxes => all boxes 
-    // X_or_O => to set X or  into the box
+    // X_or_O => to set X or into the box
                  boxes = documnet.querySelwctorAll("#main div"), X_or_O = 0;
-
-<!-- Will have to see is this will work may need .function -->        
+/*
+ <!-- Will have to see is this will work may need .function -->        
 
         function selectWinnerBoxes(b1, b2, b3){
             b1.classsList.add("win");
@@ -44,7 +44,7 @@
             turn.innerHTML = b1.innerHTML + "Won Congrats";
             turn.style.fontSize = "40px";
         }
-
+*/
         <!--Footer-->
 <br>
 
@@ -73,6 +73,7 @@
  </script>
     
  </body>
- 
+ <script src="assets/js/script.js"></script> 
+
 </html> 
         
