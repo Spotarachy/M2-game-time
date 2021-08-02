@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
 
-        *{box-sizing: border-box}
+        .box-sizing {
+             box-sizing: 140px; 
+             box-align:center  border-box
+          }
 
         .h1 {
             font-family: sans-serif;
@@ -26,7 +29,7 @@
                             
                 } /* the gold, need to be #fffffff /\*/
 
-        button {background: #fc0e28;
+        .button {background: #fc0e28;
                   color: greenyellow;
                 /* the greenyellow, need to be #fffffff /\*/
                   font-weight: bold;
@@ -48,10 +51,11 @@
              color: #8086ed;
              margin-top: 90px;
              height: 150px;
+             float: inline-end;
         }
 
         .footer-container-desktop ul {
-             list-style: none;
+             list-style: square;
              text-align: left;
              margin-top: 30px;
         }
@@ -63,7 +67,5 @@
              font-size: 21;
         }
 
-        .footer-ctas {
-             float: left;
-        }
+        
 
