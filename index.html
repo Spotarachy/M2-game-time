@@ -17,41 +17,85 @@
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
  </head>
-     <br>
-<header>
+<!---------------------------------- Header ----------------------------------->
+<body>   
 
-     <H1> Welcome to visvtor </H1>
+    <header>
 
-</header>
+         <H1> Welcome to visvtor </H1>
 
-  <body>
+    </header>
+<!----------------------------------------------------------------------------->
+
+    <section>
     
-        <div class= "container" id="main">
-<!-- will show X or O on the div click -->        
-        <span id="turn">Play</span> 
+         <div class= "container" id="main">
+         <!-- will show X or O on the div click -->        
+         <span id="turn">Play</span> 
 
-        <div class="box" id="box1"></div>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box3"></div>
-        <div class="box" id="box4"></div>
-        <div class="box" id="box5"></div>
-        <div class="box" id="box6"></div>
-        <div class="box" id="box7"></div>
-        <div class="box" id="box8"></div>
-        <div class="box" id="box9"></div>
-        
-        </div>
-<!-- Play Again or reset All must be ready -->
+         <div class="box" id="box1"></div>
+         <div class="box" id="box2"></div>
+         <div class="box" id="box3"></div>
+         <div class="box" id="box4"></div>
+         <div class="box" id="box5"></div>
+         <div class="box" id="box6"></div>
+         <div class="box" id="box7"></div>
+         <div class="box" id="box8"></div>
+         <div class="box" id="box9"></div>
+         </div>
+         <!-- Play Again or reset All must be ready -->
          
-        <button onclick="replay()">Paly Again</buttton>
+        
 
+    </section>
+<!----------------------------------------------------------------------------->
+    <section class="score">
+    
+    <div class="x-score">X : 0</div>
+    <div>SCORE</div>
+    <div class="o-score">O : 0</div>
+
+    </section>
+
+        <!------------------------------------------>
+
+    <section class="pop-up">
+        <p>TIE!</p>
+        <button onclick="replay()">Paly Again</buttton> 
+    </section>
+
+
+
+
+
+<!---------------------------------- Footer ---------------------------------->
 <footer>
+
     <ul class="social-networks">
         <il>
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> </a></li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                <i aria-hidden="true" class="fab fa-facebook"></i>Facebook</a></li>
+        </il>
+
+        <il>
+             <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                <i aria-hidden="true" class="fab fa-instagram"></i>Instagram</span></a>
+            </li>
+        </il>
+
+        <il>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                <i aria-hidden="true" class="fab fa-youtube"></i>Youtube</a></li>
         </il>
     </ul>
+
 </footer>
+
+<!---------------------------------------------------------------------------->
+
     </body>
   <script src="assest/js/script.js"></script>
 </html>    
