@@ -1,4 +1,4 @@
-<script>
+
          var turn = document.getElementById("turn"),
 
 // boxes all boxes 
@@ -97,7 +97,7 @@ function replay(){
   }    
 }
 
-</script>
+
 /* this is a exp loop 
 let i = 1;
 while (i <= 10 ) {
