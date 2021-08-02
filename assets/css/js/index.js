@@ -17,15 +17,15 @@
         }
 
         function getWinner(){
-             van box1 = document.getElementById("box1");
-             van box2 = document.getElementById("box2")
-             van box3 = document.getElementById("box3")
-             van box4 = document.getElementById("box4")
-             van box5 = document.getElementById("box5")
-             van box6 = document.getElementById("box6")
-             van box7 = document.getElementById("box7")
-             van box8 = document.getElementById("box8")
-             van box9 = document.getElementById("box9")
+             var box1 = document.getElementById("box1")
+             var box2 = document.getElementById("box2")
+             var box3 = document.getElementById("box3")
+             var box4 = document.getElementById("box4")
+             var box5 = document.getElementById("box5")
+             var box6 = document.getElementById("box6")
+             var box7 = document.getElementById("box7")
+             var box8 = document.getElementById("box8")
+             var box9 = document.getElementById("box9")
 
 // get all possibilities    
 
@@ -57,9 +57,8 @@
 
 // set event onclick
 
-        for(var i = 0; i < boxes.legth; i++){
-             boxes [i].onclick = funtion()
-             {
+        for(var i = 0; i < boxes.length; i++){
+             boxes[i].onclick = function(){
 
 // not allow to change this value for this box
 
@@ -68,19 +67,21 @@
         console.log(X_or_O);
         this.innerHTML = "X";
         turn.innerHTML = "O Turn Now";
-        getWinner ();
+        getWinner();
         X_or_O += 1;
-        }eles
-        {
+        }
+       
+        else{
         console.log(X_or_O);
         this.innerHTML = "O";
         turn.innerHTML = "X Turn Now";
         getWinner();
          X_or_O += 1;}
         }
+     }
   };
 
-}
+
 
         function replay(){
         for(var i = 0; i < boxes.length; i++){
@@ -89,19 +90,4 @@
         turn.innerHTML = "Play";
         turn.style.fontSize = "25px"
     }
-
-function replay(){
-    for(var i = 0; i < boxes.lenght; i++){
-        boxes [i].class
-    }
-  }    
 }
-
-
-/* this is a exp loop 
-let i = 1;
-while (i <= 10 ) {
-    console.log (i);
-    i++;
-}
-*/
