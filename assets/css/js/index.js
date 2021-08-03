@@ -1,5 +1,5 @@
   $('#myTab a').on('shown.bs.tab', function () {
-     // do something...
+     
    })
 
          var turn = document.getElementById("turn"),
