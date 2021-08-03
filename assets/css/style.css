@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
         *{
              margin: 0;
@@ -43,7 +43,7 @@
              float: right;
              margin-right: 30px;
         }
-        
+
         #menu a {
              text-decoration: none;
              color: inherit;
@@ -89,7 +89,27 @@
         .win{background:#f9690e; color: #ffffff;}      
 
 
+/*---------------------------  Footer  ---------------------------------------*/
+         
+        .footer{
+             height: 120px;
+        }
 
+        .social-networks{
+             text-align: center;
+        }
+
+        .social-networks li{
+             display: inline;
+        }
+
+        .social-networks i {
+             font-size: 160%;
+             margin: 1%;
+             padding: 5%;
+             color: #000;
+        }
+/*
         .footer-container-desktop {
              background-color: #dbdbdc;
              color: #8086ed;
@@ -99,8 +119,8 @@
         }
 
         .footer-container-desktop ul {
-             list-style: square;
-             text-align: left;
+             list-style: none;
+             text-align: center;
              margin-top: 30px;
         }
 
@@ -111,5 +131,6 @@
              font-size: 21;
         }
 
+*/
         
 
