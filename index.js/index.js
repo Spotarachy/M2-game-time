@@ -1,11 +1,9 @@
-
+function game(){
          var turn = document.getElementById("turn"),
+                 // boxes all boxes 
+           // X_or_O to set X or  into the box 
 
-// boxes all boxes 
-// X_or_O to set X or  into the box 
-
-         boxes = documnet.querySelwctorAll("#main div"), X_or_O = 0;
-
+     boxes = documnet.querySelwctorAll("#main div"), X_or_O = 0;
 
         function selectWinnerBoxes(b1, b2, b3){
              b1.classsList.add("win");
@@ -13,7 +11,6 @@
              b3.classsList.add("win");
              turn.innerHTML = b1.innerHTML + "Won Congrats";
              turn.style.fontSize = "40px";
-
         }
 
         function getWinner(){
@@ -26,7 +23,7 @@
              var box7 = document.getElementById("box7")
              var box8 = document.getElementById("box8")
              var box9 = document.getElementById("box9")
-
+        }      
 // get all possibilities    
 
         if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
@@ -80,8 +77,6 @@
         }
      }
   };
-
-
 
         function replay(){
         for(var i = 0; i < boxes.length; i++){
