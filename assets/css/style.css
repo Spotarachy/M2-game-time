@@ -57,36 +57,44 @@
              border-bottom: 2px solid #000;
         }
 
-        .container{width: 300px;
-                   overflow: hidden;
-                   margin: 50px auto 0 auto;
-                  }
-        .container span{width: 100%;
-                  display: block;
-                  text-align: center;
-                  font-family:'open-sans', sans-serif;
-                  color: #8086ED;
-                  background-color: #DBDBDC;
-                 }
-        .container .box:hover{background: rgba(10, 10, 10, 0.5);
-                              color: gold;
+        .container{
+               width: 300px;
+               overflow: hidden;
+               margin: 50px auto 0 auto;
+          }
+
+        .container span{
+               width: 100%;
+               display: block;
+               text-align: center;
+               font-family:'open-sans', sans-serif;
+               color: #8086ED;
+               background-color: #DBDBDC;
+          }
+
+        .container .box:hover{
+               background: rgba(10, 10, 10, 0.5);
+               color: gold;
                             
-                } /* the gold, need to be #fffffff /\*/
+          } /* the gold, need to be #fffffff /\*/
 
-        .button {background: #fc0e28;
-                  color: greenyellow;
+        .button{
+               background: #fc0e28;
+               color: greenyellow;
                 /* the greenyellow, need to be #fffffff /\*/
-                  font-weight: bold;
-                  border: 1px solid yellowgreen;
-                  cursor: pointer;
-                  width: 200px;
-                  height: 40px;
-                  font-size: 22px;
-                  display: block;
-                  margin: 10px auto;
-               }
+               font-weight: bold;
+               border: 1px solid yellowgreen;
+               cursor: pointer;
+               width: 200px;
+               height: 40px;
+               font-size: 22px;
+               display: block;
+               margin: 10px auto;
+          }
 
-        .win{background:#f9690e; color: #ffffff;}      
+        .win{
+             background:#f9690e; color: #ffffff;
+          }      
 
 
 /*---------------------------  Footer  ---------------------------------------*/
