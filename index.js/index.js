@@ -1,6 +1,3 @@
-  $('#myTab a').on('shown.bs.tab', function () {
-     
-   })
 
          var turn = document.getElementById("turn"),
 
