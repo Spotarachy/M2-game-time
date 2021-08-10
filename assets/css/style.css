@@ -10,14 +10,13 @@
              font-family: open-sans;
              color: #000;
         }
-/*
-        .box-sizing {
-             box-sizing: 140px; 
-             box-align:center  border-box
+
+        box-sizing {
+             box-sizing:  border-box
           }
-*/
-         .h2 {
-            font-family: sans-serif;
+
+         h2 {
+            font-family: open-sans;
             text-align: center;
             font-size: medium;
             color: #000;
@@ -67,7 +66,7 @@
                width: 100%;
                display: block;
                text-align: center;
-               font-family:'open-sans', sans-serif;
+               font-family:'open-sans';
                color: #8086ED;
                background-color: #DBDBDC;
           }
@@ -99,8 +98,8 @@
 
 /*---------------------------  Footer  ---------------------------------------*/
          
-        .footer{
-             height: 120px;
+        footer{
+             height: 150px;
         }
 
         .social-networks{
@@ -109,15 +108,16 @@
 
         .social-networks li{
              display: inline;
+
         }
 
         .social-networks i {
              font-size: 160%;
              margin: 1%;
              padding: 5%;
-             color: #000;
+             color: #777777;
         }
-/*
+
         .footer-container-desktop {
              background-color: #dbdbdc;
              color: #8086ed;
@@ -139,6 +139,6 @@
              font-size: 21;
         }
 
-*/
+
         
 

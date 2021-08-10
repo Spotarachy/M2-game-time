@@ -3,7 +3,7 @@ function game(){
                  // boxes all boxes 
            // X_or_O to set X or  into the box 
 
-     boxes = documnet.querySelwctorAll("#main div"), X_or_O = 0;
+     boxes = documnet.querySelwctorAll("main div"), X_or_O = 0;
 
         function selectWinnerBoxes(b1, b2, b3){
              b1.classsList.add("win");
