@@ -19,7 +19,12 @@
             font-family: open-sans;
             text-align: center;
             font-size: medium;
-            color: #000;
+            color: #555555;
+        }
+        .navbar {
+             text-align: none;
+             font-style: italic;
+             float: left;
         }
         
         #logo{
