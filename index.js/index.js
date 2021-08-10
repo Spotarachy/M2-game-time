@@ -1,4 +1,4 @@
-function game(){
+window.onload = function(){
          var turn = document.getElementById("turn"),
                  // boxes all boxes 
            // X_or_O to set X or  into the box 

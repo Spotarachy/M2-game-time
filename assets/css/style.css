@@ -1,12 +1,12 @@
    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
-        *{
+        * {
              margin: 0;
              padding: 0;
              border: 0;
         }
 
-        body{
+        body {
              font-family: open-sans;
              color: #777777;
         }
@@ -22,13 +22,13 @@
             color: #555555;
         }
         
-        #logo{
+        #logo {
              float: left;
              font-size: 280%;
              margin-left: 30px;
         }
         
-        #menu{
+        #menu {
              font-size: 110%;
              list-style-type: none;
              letter-spacing: 4px;
@@ -48,21 +48,21 @@
              color: inherit;
         }
 
-        #menu a:hover{
+        #menu a:hover {
              border-bottom: 2px  solid #000;
         }
 
-        .active{
+        .active {
              border-bottom: 2px solid #000;
         }
 
-        .container{
+        .container {
                width: 300px;
                overflow: hidden;
                margin: 50px auto 0 auto;
           }
 
-        .container span{
+        .container span {
                width: 100%;
                display: block;
                text-align: center;
@@ -71,13 +71,13 @@
                background-color: #DBDBDC;
           }
 
-        .container .box:hover{
+        .container .box:hover {
                background: rgba(10, 10, 10, 0.5);
                color: gold;
                             
           } /* the gold, need to be #fffffff /\*/
 
-        .button{
+        .button {
                background: #fc0e28;
                color: greenyellow;
                 /* the greenyellow, need to be #fffffff /\*/
@@ -91,22 +91,22 @@
                margin: 10px auto;
           }
 
-        .win{
+        .win {
              background:#f9690e; color: #ffffff;
           }      
 
 
 /*---------------------------  Footer  ---------------------------------------*/
          
-        footer{
+        footer {
              height: 150px;
         }
 
-        .social-networks{
+        .social-networks {
              text-align: center;
         }
 
-        .social-networks li{
+        .social-networks li {
              display: inline;
 
         }
