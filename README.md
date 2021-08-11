@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-![alt Mini Games| Dicsh-Tac-Toe](assets/image/land.jpeg)
+![Dicsh-Tac-Toe](assets/image/land.jpeg)
 
 
 ## ```Who will it be!,```
@@ -137,6 +137,14 @@ Features
 
 
 ###```Testing```
+  
+   * https://jshint.com/ ued for all the js code errors in my code: 
+   
+   "JSHint, a tool that helps to detect errors and potential
+    problems in your JavaScript code."
+    
+
+
 
 ###```Konwn Bugs```
 
