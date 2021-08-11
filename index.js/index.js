@@ -14,19 +14,19 @@ window.onload = function(){
         }
 
         function getWinner(){
-             var box1 = document.getElementById("box1")
-             var box2 = document.getElementById("box2")
-             var box3 = document.getElementById("box3")
-             var box4 = document.getElementById("box4")
-             var box5 = document.getElementById("box5")
-             var box6 = document.getElementById("box6")
-             var box7 = document.getElementById("box7")
-             var box8 = document.getElementById("box8")
-             var box9 = document.getElementById("box9")
+             var box1 = document.getElementById("box1");
+             var box2 = document.getElementById("box2");
+             var box3 = document.getElementById("box3");
+             var box4 = document.getElementById("box4");
+             var box5 = document.getElementById("box5");
+             var box6 = document.getElementById("box6");
+             var box7 = document.getElementById("box7");
+             var box8 = document.getElementById("box8");
+             var box9 = document.getElementById("box9");
         }      
 // get all possibilities    
 
-        if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1,innerHTML === box3.innerHTML)
+        if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1)innerHTML === box3.innerHTML;
              selectWinnerBoxes(box1,box2,box3);
 
         if(box4.innerHTML !== "" && box4.innerHTML === box5.innerHTML && box4,innerHTML === box6.innerHTML)
@@ -75,14 +75,15 @@ window.onload = function(){
         getWinner();
          X_or_O += 1;}
         }
-     }
-  };
+     };
+  }
 
         function replay(){
         for(var i = 0; i < boxes.length; i++){
         boxes[i].classList.remove("win");
         boxes[i].classHTML = "";
         turn.innerHTML = "Play";
-        turn.style.fontSize = "25px"
+        turn.style.fontSize = "25px";
     }
 }
+
