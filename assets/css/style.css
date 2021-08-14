@@ -40,11 +40,11 @@
              list-style-type: none;
              letter-spacing: 4px;
         }
-
+         /*
         #logo, #menu {
              line-height: 75px;
         }
-
+         */
         #menu li {
              float: center;
              margin-right: 30px;
@@ -54,7 +54,7 @@
              text-decoration: none;
              color: inherit;
         }
-
+/*
         #menu a:hover {
              border-bottom: 2px  solid #000;
         }
@@ -62,7 +62,7 @@
         .active {
              border-bottom: 2px solid #000;
         }
-
+*/
         .container {
                width: 300px;
                overflow: hidden;
