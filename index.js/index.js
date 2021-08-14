@@ -1,9 +1,8 @@
-window.onload = function(){
-         var turn = document.getElementById("turn"),
+document.getElementById("turn").addEventListener("click");
                  // boxes all boxes 
            // X_or_O to set X or  into the box 
 
-     boxes = documnet.querySelwctorAll("main div"), X_or_O = 0;
+     boxes = documnet.querySelwctorAll("#main div").innerHTML='X_or_O = 0';
 
         function selectWinnerBoxes(b1, b2, b3){
              b1.classsList.add("win");
@@ -13,7 +12,7 @@ window.onload = function(){
              turn.style.fontSize = "40px";
         }
 
-        function getWinner(){
+        function getWinner() {
              var box1 = document.getElementById("box1");
              var box2 = document.getElementById("box2");
              var box3 = document.getElementById("box3");
@@ -50,7 +49,7 @@ window.onload = function(){
         if(box3.innerHTML !== "" && box3.innerHTML === box5.innerHTML && box3,innerHTML === box7.innerHTML)
              selectWinnerBoxes(box3,box5,box7);   
 
-        }
+        
 
 // set event onclick
 
@@ -81,7 +80,7 @@ window.onload = function(){
         function replay(){
         for(var i = 0; i < boxes.length; i++){
         boxes[i].classList.remove("win");
-        boxes[i].classHTML = "";
+        boxes[i].classHTML ="innerHTML";
         turn.innerHTML = "Play";
         turn.style.fontSize = "25px";
     }
