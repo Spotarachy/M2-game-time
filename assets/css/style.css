@@ -8,8 +8,11 @@
 
         body {
              font-family: open-sans;
-             color: red;
+             color: black;
+             background-color: cadetblue;
         }
+       
+        
 
         td {
              height: 150px;
@@ -33,6 +36,7 @@
              float: left;
              font-size: 280%;
              margin-left: 30px;
+     
         }
         
         #menu {
@@ -40,20 +44,18 @@
              list-style-type: none;
              letter-spacing: 4px;
         }
-         /*
-        #logo, #menu {
-             line-height: 75px;
-        }
-         */
+         
+        
         #menu li {
              float: center;
              margin-right: 30px;
         }
-
+        /*
         #menu a {
              text-decoration: none;
-             color: inherit;
-        }
+             color: green;
+        } */
+        
 /*
         #menu a:hover {
              border-bottom: 2px  solid #000;
