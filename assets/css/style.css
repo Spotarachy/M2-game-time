@@ -56,15 +56,23 @@
              color: green;
         } */
         
-/*
+
         #menu a:hover {
-             border-bottom: 2px  solid #000;
+             border-bottom: 2px  solid #777777;
         }
 
         .active {
-             border-bottom: 2px solid #000;
+             border-bottom: 2px solid #777777;
         }
-*/
+
+        #hero-image{
+             height: 100%;
+             width: 100%;
+             background: url(https://images.pexels.com/photos/3400795/pexels-photo-3400795.jpeg);
+             padding: 2px;
+             position: absolute;
+        }
+
         .container {
                width: 300px;
                overflow: hidden;
