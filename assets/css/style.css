@@ -112,35 +112,39 @@
              background:#f9690e; color: #ffffff;
           }     
 
-/*------------------------------*/ 
-.rounder-pill{
-
+/*------------- Contact/ TopWins -----------------*/ 
+.img-fluid{
+     place-content: top;
+     max-width: 100%;
+     height: auto;
+     min-height: 10%;
+     max-height: 50%;
+     border-radius: ;
+     list-style-image: 
 }
 
 /*---------------------------  Footer  ---------------------------------------*/
          
-        footer {
-             height: 60px;
-             text-align: center;
-             position: fixed;
-        }
+        
 
         .social-networks {
              text-align: center;
+             margin: 0;
+             padding: 0;
         }
 
         .social-networks li {
-             display: inherit;
+             display: inline;
 
         }
 
         .social-networks i {
-             font-size: 160%;
+             font-size: 3rem;
              margin: 1%;
              padding: 5%;
              color: #777777;
         }
-
+/*
         .footer-container-desktop {
              background-color: #dbdbdc;
              color: #8086ed;
