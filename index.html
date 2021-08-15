@@ -22,10 +22,8 @@
 
      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-     
-
-     <title> Mini Games| Dicsh-Tac-Toe</title>
-
+     <title>Dish-Tac-Toe</title> 
+    <link rel="shortcut icon" type="image/png" href="./image/landing.png">
  </head>
  
 <!---------------------------------- Header ----------------------------------->
@@ -39,7 +37,7 @@
             <div class="container-fluid">
                 
                 <a href="index.html">
-                    <h2 id="logo">Dicsh-Tac-Toe</h2>
+                  <!-- <h2 id="logo">Dish-Tac-Toe</h2> -->
                     <i class="fas fa-dice"></i> </a>
 
                 <a class="navbar-brand" href="index.html"></a>
@@ -55,18 +53,22 @@
 
 
                      <li class="nav-link">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">landing</a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a class="nav-link active" href="game.html">Home</a>
                     </li>
 
                      <!--<div class="underline-circle-outer">
                           <div class="d-none d-md-block underline-circle-inner"></div>
                      </div> -->
 
-                    <li class="nav-item">
+                    <li class="nav-link">
                         <a class="nav-link active" href="contact.html">Most Win</a>
                     </li>
 
-                    <li>
+                    <li class="nav-link">
                         <a class="nav-link active" href="about.html">About Us</a>
                     </li>
                 </ul> 
@@ -74,88 +76,49 @@
         </nav>
     </header>
 <!------------------------------------ Body ----------------------------------->
-
-    
-    
-         <div class="container" id="main div">
-               <!-- was here /\id= "main div" -->
-         <!-- will show X or O on the div click -->        
-         <button type="button" class="btn btn-primary" href=index.html id="turn">Start Here</button> 
-
-    <table align="center">
-
-        <tr>
-
-             <tb> </tb>
-
-             <tb> </tb>
-
-             <tb> </tb>
-
-        </tr>
-
-        <tr>
-
-             <tb></tb>
-
-             <tb></tb>
-             
-             <tb></tb>
-
-        </tr>
-
-        <tr>
-
-             <tb></tb>
-
-             <tb></tb>
+<div class="container">
+    <div id="home" class="flex-center flex-columu">
+        <h2>Dish-Tac-Toe</h2>
         
-             <tb></tb>
+            <button type="button" class="btn" data-toggle="#exampleModalCenter">Who will it be?
+            </button>
+                    <!-- Modal using bootstrap example code-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-label="exampleModalCenterTitle" aria-hidden="true">
 
-       </tr>
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLongTitle">Best out of 3!</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h3>This is small & simple way to an argument</h3>
+                  <h3>Dish-Tac-Toe was maid to help couples have fun with there routines</h3>
+                  <h3> it's simply best out of three wins and loser does the dishes</h3>
+                  <h3> kickback and relax and have some fun.</h3>   
+                </div>
 
-    </table>
+                <div class="modal-footer">
+                  <a class="btn" href="game.html">Start!</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
 
-    <!--            Old  box dont work !-->
-<!-
-         <div class="box" id="box1">
+        <a class="btn" href="game.html">Play</a>
+        <a class="btn" href="contact.html">Top wins</a>
 
-         <div class="box" id="box2"></div>
-
-         <div class="box" id="box3"></div>
-
-         <div class="box" id="box4"></div>
-
-         <div class="box" id="box5"></div>
-         <div class="box" id="box6"></div>
-         <div class="box" id="box7"></div>
-         <div class="box" id="box8"></div>
-         <div class="box" id="box9"></div>
-         </div>
-         
-         .Play Again or reset All must be ready.
-         
-        
-        -->
+    </div>
+</div>
     
+    
+ 
 <!----------------------------------------------------------------------------->
-    <section class="score">
-    
-    <div class="x-score">X : 0</div>
-    <div>SCORE</div>
-    <div class="o-score">O : 0</div>
-
-    </section>
-
-        <!------------------------------------------>
-
-    <section class="pop-up">
-        <p>TIE!</p>
-        <button type="button" class="btn btn-warning">Play Again</buttton> <!--  /\ onclick-->                   <!--  /\replay()-->
-
-    </section>
-
-
+ 
 
 
 
