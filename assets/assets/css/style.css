@@ -1,0 +1,175 @@
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+        * {
+             margin: 0;
+             padding: 0;
+             border: 0;
+        }
+
+        body {
+             font-family: open-sans;
+             color: black;
+             background-color: rgb(90, 151, 153);
+        }
+ /*------------------------ new tabloe --------------------------------*/      
+        .board {
+            margin: 20px auto;
+        }
+
+        .board .box-row {
+            clear: both;
+            width: 200px;
+            height: 60px;
+            margin: 0 auto;
+        }
+
+        .board .box-row .box {
+            display: block;
+            height: 50px;
+            width: 50px;
+            background-color: #fff;
+            border: 1px solid #333;
+            margin: 5px;
+            float: left;
+            line-height: 50px;
+            text-align: center;
+        }
+
+         h2 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: #555555;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .score {
+            clear: both;
+            margin: 20px auto;
+            width: 300px;
+            text-align: center;
+        }
+
+#turn {
+    margin: 20px auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+  /*----------------------- logo' & Menu-------------------------------*/      
+        #logo {
+             float: left;
+             font-size: 280%;
+             margin-left: 30px;
+     
+        }
+        
+        #menu {
+             font-size: 110%;
+             list-style-type: none;
+             letter-spacing: 4px;
+        }
+         
+        
+        #menu li {
+            margin-right: 30px;
+        }
+        
+        #menu a {
+             text-decoration: none;
+             color: green;
+        } 
+        
+
+        #menu a:hover {
+             border-bottom: 2px  solid #777777;
+        }
+
+        .active {
+             border-bottom: 2px solid #777777;
+        }
+
+        #hero-image{
+             height: 100%;
+             width: 100%;
+             background: url(https://images.pexels.com/photos/3400795/pexels-photo-3400795.jpeg);
+             padding: 2px;
+             position: absolute;
+        }
+
+        .container {
+               width: 300px;
+               overflow: hidden;
+               margin: 50px auto 0 auto;
+          }
+
+        .container span {
+               width: 100%;
+               display: block;
+               text-align: center;
+               font-family:'open-sans';
+               color: #8086ED;
+               background-color: #DBDBDC;
+          }
+
+        .container .box:hover {
+               background: rgba(10, 10, 10, 0.5);
+               color: gold;
+                            
+          } /* the gold, need to be #fffffff /\*/
+
+        .button {
+               background: #fc0e28;
+               color: greenyellow;
+                /* the greenyellow, need to be #fffffff /\*/
+               font-weight: bold;
+               border: 1px solid yellowgreen;
+               cursor: pointer;
+               width: 200px;
+               height: 40px;
+               font-size: 22px;
+               display: block;
+               margin: 10px auto;
+          }
+
+        .win {
+             background-color: #f9690e !important; 
+             color: #ffffff !important;
+        }     
+
+/*------------- Contact/ TopWins -----------------*/ 
+.img-fluid{
+    max-width: 100%;
+     height: auto;
+     min-height: 10%;
+     max-height: 50%;
+     border-radius: ;
+     list-style-image: 
+}
+
+/*---------------------------  Footer  ---------------------------------------*/
+         
+        
+
+        .social-networks {
+             text-align: center;
+             margin: 0;
+             padding: 0;
+        }
+
+        .social-networks li {
+             display: inline;
+
+        }
+
+        .social-networks i {
+             font-size: 3rem;
+             margin: 1%;
+             padding: 5%;
+             color: #777777;
+        }
+        
+
