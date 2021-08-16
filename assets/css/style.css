@@ -4,24 +4,24 @@
              margin: 0;
              padding: 0;
              border: 0;
-        }
+          }
 
         body {
              font-family: open-sans;
              color: black;
              background-color: rgb(90, 151, 153);
-        }
+          }
  /*------------------------ new tabloe --------------------------------*/      
         .board {
             margin: 20px auto;
-        }
+          }
 
         .board .box-row {
             clear: both;
             width: 200px;
             height: 60px;
             margin: 0 auto;
-        }
+          }
 
         .board .box-row .box {
             display: block;
@@ -33,64 +33,63 @@
             float: left;
             line-height: 50px;
             text-align: center;
-        }
+          }
 
          h2 {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-transform: uppercase;
             letter-spacing: 4px;
             color: #555555;
-        }
+          }
 
         .clear {
             clear: both;
-        }
+          }
 
         .score {
             clear: both;
             margin: 20px auto;
             width: 300px;
             text-align: center;
-        }
+          }
 
-#turn {
-    margin: 20px auto;
-    font-weight: bold;
-    text-align: center;
-    font-size: 16px;
-}
+        #turn {
+            margin: 20px auto;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+          }
   /*----------------------- logo' & Menu-------------------------------*/      
         #logo {
              float: left;
              font-size: 280%;
              margin-left: 30px;
-     
-        }
+          }
         
         #menu {
              font-size: 110%;
              list-style-type: none;
              letter-spacing: 4px;
-        }
+          }
          
         
         #menu li {
             margin-right: 30px;
-        }
+          }
         
         #menu a {
              text-decoration: none;
              color: green;
-        } 
+          } 
         
 
         #menu a:hover {
              border-bottom: 2px  solid #777777;
-        }
+          }
 
         .active {
              border-bottom: 2px solid #777777;
-        }
+          }
 
         #hero-image{
              height: 100%;
@@ -98,7 +97,7 @@
              background: url(https://images.pexels.com/photos/3400795/pexels-photo-3400795.jpeg);
              padding: 2px;
              position: absolute;
-        }
+          }
 
         .container {
                width: 300px;
@@ -141,30 +140,26 @@
         }     
 
 /*------------- Contact/ TopWins -----------------*/ 
-.img-fluid{
-    max-width: 100%;
-     height: auto;
-     min-height: 10%;
-     max-height: 50%;
-     border-radius: ;
-     list-style-image: 
-}
-
+          .img-fluid {
+              max-width: 100%;
+              height: auto;
+              min-height: 10%;
+              max-height: 50%;
+          }
+          
 /*---------------------------  Footer  ---------------------------------------*/
-         
-        
+          .footer{
+             height: 150px;
+          }
 
         .social-networks {
              text-align: center;
-             margin: 0;
-             padding: 0;
         }
 
         .social-networks li {
              display: inline;
 
         }
-
         .social-networks i {
              font-size: 3rem;
              margin: 1%;
