@@ -1,9 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-![Dicsh-Tac-Toe](assets/image/land.jpeg)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Spotarachy/M2-game-time)
 
 
-## ```Who will it be!,```
+## ```Who will it be!```
+
+![Mockup](./image/landing.png)
+
+https://spotarachy.github.io/M2-game-time/index.html
 
 ---
 ```
@@ -20,11 +22,39 @@ By giving out visitors a fun way to interact and to play games, best out of thre
 Gook Luck!
 
 
-## Table of Contents
+## Table of contents
 
 [UX - User Experience](#ux)
-    *[Project Goals](#project-goals)
-    *
+   * [Project Goals](#project-goals)
+   * [User Stories](#user-stories)
+     1. Visitiing the site for the fist time
+     2. Returning Visitor to the site
+     3. Frequent User to the site
+
+[Design](#design-choices)
+
+   * [Colours](#colours)
+   * [Typography](#typography)
+   * [Images](#images)
+   * [Icons](#icons)
+   * [Layout](#layout)
+   * [Wireframes](#wireframes)
+
+ [Features](#Features)
+
+  * [Validator](#validator)
+  * [Testing](#Testing)
+  * [Further-testing](#further testing)
+     1. index.html
+     2. desktop
+     3. perfromace 
+  * [Known-Bugs](#known Bugs)
+
+  [Developmnet](#Developmnet)
+
+   * [GithubPage](#Github Page)
+   * [Credit](#Credit)
+   * [Acknowledgements](#Acknowledgement)
 
 
 ---
@@ -33,15 +63,15 @@ UX - User experience
 ```
 
 
-### ```Project Goals```
+### Project Goals
 
-1
-2
+1. To help and provide an easy way to solve problme.
+2. To give are uses a plces where it one 
 3
 4
 5
 
-### ```User Stories```
+### User Stories
 
 1.** Visitting 1st time: **
 
@@ -98,22 +128,21 @@ UX - User experience
 Designs
 ```
 
-###```Colours```
+### Colours
 
 
 
-###```Typography```
+### Typography
 
 
 
-###```Images```
+### Images
 
 
 
-###```Icons```
+### Icons
 
-
-###```Wireframs```
+### Wireframs
 
 1.** WebSite:**
 
@@ -133,30 +162,34 @@ Features
 *
 
 ---
-###```Validator```
+### Validator
 
 
-###```Testing```
+### Testing
   
    * https://jshint.com/ ued for all the js code errors in my code: 
    
    "JSHint, a tool that helps to detect errors and potential
     problems in your JavaScript code."
+
+   * https://validator.w3.org
     
 
 
 
-###```Konwn Bugs```
+### Konwn Bugs
 
 ---
 ```
 Developmnet
 ```
-###```Github Page```
 
-###```Credit```
 
-###```Ackonwledgements```
+### Github Page
+
+### Credit
+
+### Ackonwledgements
 
 
 
