@@ -65,55 +65,48 @@ UX - User experience
 
 ### Project Goals
 
-1. To help and provide an easy way to solve problme.
-2. To give are uses a plces where it one 
-3
-4
-5
+   1. To help and provide an easy way to solve problme.
+   2. To give are uses a plces where they can come to an agreement.
+   3. To prvide a experience 
+   4. Get the harmony back plus bragging rights
+   5. To have fun
+
 
 ### User Stories
 
 1.** Visitting 1st time: **
 
-1
-2
-3
-4
-5
-
-6
-7
-8
-9
-10
+   6. How fast is the website loading.
+   7. Is the website easy to understand.
+   8. Does it have quick responses.
+   9. How's the design.
+   10. How involved with the design with the end user in mine.
+   11. All the link should work.
+   12. Easy to navigate.
+   13. Not confusing.
+   14. Simply. 
+   15. Interactive.
 
 2.** Returning visitor:**
 
-1
-2
-3
-4
-5
-
-6
-7
-8
-9
-10
-
+   16. I wanna see my top score for my last visit.
+   17. Will the website remember my username. 
+   18. It's simplify the way we wash dishes.
+   19. Easy way to stop argument.
+   20. It made us laugh.
+   21. They gave us a jolly old time alright!
+   22. Will keep coming back to see if more games has been added
+  
 3.** Frequent Users of the site:**
 
-1
-2
-3
-4
-5 
-
-6
-7
-8
-9
-10
+   23. To see how the site has developed from the first time we have been invited to it.
+   24. Enjoy the interaction 
+   25. Like to see all the new scores and new people using the website
+   26. Been able to keep track of their wins.
+   27.  
+   28.
+   29.
+   30.
 
 4.** Site Ower Goal:**
 
