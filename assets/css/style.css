@@ -11,7 +11,7 @@
              color: black;
              background-color: rgb(90, 151, 153);
           }
- /*------------------------ new tabloe --------------------------------*/      
+ /*------------------------ js table --------------------------------*/      
         .board {
             margin: 20px auto;
           }
@@ -139,14 +139,32 @@
              color: #ffffff !important;
         }     
 
-/*------------- Contact/ TopWins -----------------*/ 
+/*------------------------ Contact/ TopWins ---------------------------------*/ 
           .img-fluid {
               max-width: 100%;
               height: auto;
               min-height: 10%;
               max-height: 50%;
+              background:scroll ;
           }
-          
+          element.style{
+          }
+          .rules-modal-coontent {
+            background-color: #777777;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #007bff;
+            width: 70%;
+          }
+
+          form {
+            width: 100%;
+            padding-left: 50%;
+            padding-right: 50%;
+            text-align: center;
+            margin-bottom: 25px;
+            position: absolute;
+          }
 /*---------------------------  Footer  ---------------------------------------*/
           .footer{
              height: 150px;
