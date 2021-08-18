@@ -69,14 +69,15 @@
         <!--  how to target  /\. -->
         <section class="text-center form-container">
             <h2 class="contact-header">How can We Help!</h2>
-            <form onsubmit="return sendMail(this);">
+            
+        <form onsubmit="return sendMail(this);">
 
-            <input type="text" name="form-control" id="fullname" placeholder="Name:" name="name" required>
+            <input type="text" class="form-control" id="fullname" placeholder="Name:" name="name" required>
 
             <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email:" required>
 
             <textarea rows="6" name="messageInformation" id="messageInformation" class="form-control" placeholder="Messeage here..."></textarea>
-            <button type="submit" class="btn form-btn btn-success">Send</button>
+            <button type="submit" id="submit-form" class="btn form-btn btn-primary">Send</button>
             </form>
         </section>
 

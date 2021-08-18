@@ -143,12 +143,12 @@
           .img-fluid {
               max-width: 100%;
               height: auto;
-              min-height: 10%;
-              max-height: 50%;
-              background:scroll ;
+              min-height: 20%;
+              max-height: 75%;
+              background:scroll;
+              mask-position: 100%;
           }
-          element.style{
-          }
+
           .rules-modal-coontent {
             background-color: #777777;
             margin: 15% auto;
@@ -165,6 +165,7 @@
             margin-bottom: 25px;
             position: absolute;
           }
+          .send 
 /*---------------------------  Footer  ---------------------------------------*/
           .footer{
              height: 150px;
