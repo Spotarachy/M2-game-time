@@ -11,6 +11,15 @@
              color: black;
              background-color: rgb(90, 151, 153);
           }
+        .landing {
+          height: 700px;
+          range: center;
+          padding: 30px 30px 30px 30px;
+        }
+
+        h4,h5,h6{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
  /*------------------------ js table --------------------------------*/      
         .board {
             margin: 20px auto;
@@ -165,7 +174,7 @@
             margin-bottom: 25px;
             position: absolute;
           }
-          .send 
+          
 /*---------------------------  Footer  ---------------------------------------*/
           .footer{
              height: 150px;
