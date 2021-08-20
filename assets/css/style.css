@@ -11,13 +11,20 @@
              color: black;
              background-color: rgb(90, 151, 153);
           }
-        .landing {
-          height: 700px;
-          range: center;
-          padding: 30px 30px 30px 30px;
+
+        h1 {
+          text-align: center;
+          font-style: italic;
+          color: #ffffff;
         }
 
-        h4,h5,h6{
+        h2 {
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+          color: #555555;
+        }
+        h4,h5,h6 {
           font-family: Georgia, 'Times New Roman', Times, serif;
         }
  /*------------------------ js table --------------------------------*/      
@@ -42,13 +49,6 @@
             float: left;
             line-height: 50px;
             text-align: center;
-          }
-
-         h2 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            color: #555555;
           }
 
         .clear {
@@ -100,13 +100,6 @@
              border-bottom: 2px solid #777777;
           }
 
-        #hero-image{
-             height: 100%;
-             width: 100%;
-             background: url(https://images.pexels.com/photos/3400795/pexels-photo-3400795.jpeg);
-             padding: 2px;
-             position: absolute;
-          }
 
         .container {
                width: 300px;
@@ -114,7 +107,7 @@
                margin: 50px auto 0 auto;
           }
 
-        .container span {
+       /* .container span {
                width: 100%;
                display: block;
                text-align: center;
@@ -122,17 +115,18 @@
                color: #8086ED;
                background-color: #DBDBDC;
           }
+        */
 
+        /*
         .container .box:hover {
                background: rgba(10, 10, 10, 0.5);
-               color: gold;
-                            
-          } /* the gold, need to be #fffffff /\*/
-
+        }     
+        */
+        
+        /*
         .button {
                background: #fc0e28;
-               color: greenyellow;
-                /* the greenyellow, need to be #fffffff /\*/
+               color: #ffffff;
                font-weight: bold;
                border: 1px solid yellowgreen;
                cursor: pointer;
@@ -142,23 +136,27 @@
                display: block;
                margin: 10px auto;
           }
+          */
 
         .win {
              background-color: #f9690e !important; 
              color: #ffffff !important;
         }     
 
-/*------------------------ Contact  ---------------------------------*/ 
-          .img-fluid {
-              max-width: 100%;
+/*------------------------ img ---------------------------------*/ 
+          
+        .img-fluid {
+              width: 700px;
               height: auto;
               min-height: 20%;
               max-height: 75%;
               background:scroll;
               mask-position: 100%;
           }
-
-          .rules-modal-coontent {
+        .land
+/*------------------------ Contact  ---------------------------------*/ 
+          
+        .rules-modal-coontent {
             background-color: #777777;
             margin: 15% auto;
             padding: 20px;
@@ -166,7 +164,7 @@
             width: 70%;
           }
 
-          form {
+        form {
             width: 100%;
             padding-left: 50%;
             padding-right: 50%;
@@ -176,7 +174,7 @@
           }
           
 /*---------------------------  Footer  ---------------------------------------*/
-          .footer{
+        .footer{
              height: 150px;
           }
 
