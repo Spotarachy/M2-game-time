@@ -18,6 +18,14 @@
           color: #ffffff;
         }
 
+        h6 {
+
+          size: bold;
+          text-align: center;
+          font-style: italic;
+          color: #ffffff;
+        }
+
         h2 {
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           text-transform: uppercase;
@@ -68,6 +76,14 @@
             text-align: center;
             font-size: 16px;
           }
+
+        #pop-up{
+          margin: 20px auto;
+          font-weight: bold;
+          text-align: center;
+          font-size: 18px;
+        }
+
   /*----------------------- logo' & Menu-------------------------------*/      
         #logo {
              float: left;
@@ -98,63 +114,38 @@
 
         .active {
              border-bottom: 2px solid #777777;
-          }
-
-
-        .container {
-               width: 300px;
-               overflow: hidden;
-               margin: 50px auto 0 auto;
-          }
-
-       /* .container span {
-               width: 100%;
-               display: block;
-               text-align: center;
-               font-family:'open-sans';
-               color: #8086ED;
-               background-color: #DBDBDC;
-          }
-        */
-
-        /*
-        .container .box:hover {
-               background: rgba(10, 10, 10, 0.5);
-        }     
-        */
-        
-        /*
-        .button {
-               background: #fc0e28;
-               color: #ffffff;
-               font-weight: bold;
-               border: 1px solid yellowgreen;
-               cursor: pointer;
-               width: 200px;
-               height: 40px;
-               font-size: 22px;
-               display: block;
-               margin: 10px auto;
-          }
-          */
+        }
 
         .win {
              background-color: #f9690e !important; 
              color: #ffffff !important;
         }     
-
-/*------------------------ img ---------------------------------*/ 
-          
-        .img-fluid {
-              width: 700px;
-              height: auto;
-              min-height: 20%;
-              max-height: 75%;
-              background:scroll;
-              mask-position: 100%;
+/*------------------------- Image Index  -------------------------------------*/
+        .jumbotron-fluid {
+          margin: 0 auto;
+          width: 1000px;    
           }
-        .land
-/*------------------------ Contact  ---------------------------------*/ 
+
+        .landing {
+          height: auto;
+          width: 75%;
+          padding: 30px 30px 30px 30px;
+          position: center;
+        }
+
+/*------------------------ Image Contact ------------------------------------*/ 
+        .modal-hide {
+          margin: 0 auto;
+          width: 1000px;
+        }
+
+        .img-fluid {
+              max-width: 100%;
+              height: auto;  
+              padding: 5px 5px 5px 5px;  
+          }
+
+/*--------------------------- Contact  --------------------------------------*/ 
           
         .rules-modal-coontent {
             background-color: #777777;
