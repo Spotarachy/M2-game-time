@@ -12,6 +12,23 @@
              background-color: rgb(90, 151, 153);
           }
 
+        
+        html,body {
+          height: 100%;
+        }
+
+        #Header {
+          width: 960px;
+          height: 150px;
+        }
+        #Cotent {
+          height: 100%;
+          width: 960px;
+        }
+        .section {height:100vh;
+        }
+
+
         h1 {
           text-align: center;
           font-style: italic;
@@ -77,11 +94,12 @@
             font-size: 16px;
           }
 
-        #pop-up{
+        #pop-up {
           margin: 20px auto;
           font-weight: bold;
           text-align: center;
           font-size: 18px;
+          left: 20px;
         }
 
   /*----------------------- logo' & Menu-------------------------------*/      
@@ -122,26 +140,33 @@
         }     
 /*------------------------- Image Index  -------------------------------------*/
         .jumbotron-fluid {
-          margin: 0 auto;
-          width: 1000px;    
+          margin:  auto;
+          width: 690px;    
           }
 
         .landing {
+          position: relative;
           height: auto;
-          width: 75%;
+          width: 100%;
           padding: 30px 30px 30px 30px;
-          position: center;
+          border: 1px solid coral;
+          background-color: #777777;
+          
         }
+        
+
 
 /*------------------------ Image Contact ------------------------------------*/ 
         .modal-hide {
-          margin: 0 auto;
+          margin:  auto;
           width: 1000px;
         }
 
         .img-fluid {
-              max-width: 100%;
-              height: auto;  
+              
+              height: auto;
+              width: 75%;
+              left: 40px;
               padding: 5px 5px 5px 5px;  
           }
 
