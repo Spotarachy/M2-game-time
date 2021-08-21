@@ -8,7 +8,6 @@
 https://spotarachy.github.io/M2-game-time/index.html
 
 
-
 ---
 
 ```
@@ -91,7 +90,6 @@ About
 UX - User experience
 ```
 
-
 At Dicsh Tac Toe we aim to have the most enjoyable time when it comes to establishing peacs in your life, by helping are visitors to find out who's turn is it to wash the dish?
 
 By giving out visitors a fun way to interact and to play games, best out of three win's, and will hopefully get you on the right track to being a happy couple after she beat you,and the Dicsh has been cleared.
@@ -163,7 +161,6 @@ Designs
 For the design of this webpage we went for a fairly simple design of tic-tac-toe then incorporated  our simple style to fulfil the players & our clients wishes for the design and the functionality of this page and game.
 
 
-
 ## COLOURS 
 
 The colours of implementing for this website our from two earth are favourite websites for choosing a precise RGB colours.
@@ -227,7 +224,6 @@ No can be provided..
       For Visual Example of Font:[Georgia](https://www.cssfontstack.com/Georgia)
       
 
-
 ## IMAGES 
 
 All my images are high-quality 4K images that was sauce from pixels website through my account which are free for public use.
@@ -264,7 +260,7 @@ Wirefram was maed with me and we'll balsamiq:
 Features
 ```
 
----
+
 ## VALIDATORS 
 
  These are validating websites that are used to validate my website properly.
@@ -294,8 +290,9 @@ Features
    [JS Hint](https://validator.w3.org)
 
    ![w3](./assets/image/testing/01.png)
-    
 
+   ![Css W3](./assets/image/testing/02.png)
+    
 
 ## KONWN BUGS 
 
@@ -307,7 +304,6 @@ Near several known bugs in the course of making this website, I will link a code
 ```
 Developmnet
 ```
-
 
 ## GITHUB 
 
