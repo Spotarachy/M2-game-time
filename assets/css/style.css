@@ -22,7 +22,7 @@
           width: 960px;
           height: 150px;
         }
-        #Cotent {
+        #Content {
           height: 100%;
           width: 960px;
         }
@@ -56,13 +56,14 @@
         }
  /*------------------------ js table --------------------------------*/      
         .board {
-          margin: 20px auto;
+          margin: 130px auto;
+            
         }
 
         .board .box-row {
           clear: both;
           width: 200px;
-          height: 60px;
+          height: 75px;
           margin: 0 auto;
         }
 
@@ -72,7 +73,7 @@
           width: 50px;
           background-color: #fff;
           border: 1px solid #333;
-          margin: 5px;
+          margin: 8px;
           float: left;
           line-height: 50px;
           text-align: center;
@@ -141,7 +142,8 @@
 /*------------------------- Image Index  -------------------------------------*/
         .jumbotron-fluid {
           margin:  auto;
-          width: 690px;    
+          width: 690px;
+          min-width: fit-content;    
         }
 
         .landing {
@@ -151,13 +153,13 @@
           padding: 30px 30px 30px 30px;
           border: 1px solid coral;
           background-color: #F0F8FF;
+         
           
         }
         
 /*----------------------- Image Contact ------------------------------------*/ 
         .modal-hide {
-          margin:  auto;
-          width: 700px;
+          width: 400px;
         }
       /* Example for w3schools.com*/
         .img-fluid {
@@ -192,6 +194,7 @@
           padding: 15px;
           border: 1px solid #007bff;
           width: 70%;
+          
         }
        
         form {
@@ -200,8 +203,8 @@
           width: calc(100% - 100px);
           left: 6%;
           padding: 20px;
-          margin-bottom: 25px;
-          
+          margin-bottom: 25px; 
+          min-width: fit-content;
         }
         .contact-header {
           margin-top: 10px;
