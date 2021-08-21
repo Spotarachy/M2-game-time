@@ -28,31 +28,28 @@
 
     <header>
  
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             
             <div class="container-fluid">
             
-                <a href="index.html">
+                <a href="index.html"><span class="sr-only">(current)</span>
                     <i class="fas fa-dice"></i>
                 </a>
 
                     <a class="navbar-brand" href="index.html"></a>
                         
-                 <!-----------  Button is form My M1 -------------->
+                 <!-----------  Button is form Boostrap -------------->
                         <button class="navbar-toggler hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigetion" inlign="text-right">
                         <span class="navbar-toggler-icon"></span>                
                         </button>
                 <div class="collapse navbar-collapse" id="navbarNav"> 
-                    <!--------------------------------------------->
-
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-inline">
 
-                        <!--
+                        <!--  Open only for maintenance 
                         <li class="nav-link">
                             <a class="nav-link active" href="index.html">landing</a>
                         </li>
                         --> 
-
                         <li class="nav-link">
                             <a class="nav-link active" href="game.html">Game</a>
                         </li>
@@ -62,13 +59,35 @@
                         </li>
 
                         <li class="nav-link">
-                            <a class="nav-link active" href="about.html">About Us</a>
+                            <a class="nav-link" id="rules-link">About Us</a>
                         </li>
                     </ul> 
                 </div>
             </div>
         </nav>
     </header>
+    <!-----------------------------  About us box. ---------------------------->
+
+    <section>
+        <div id="rules-mdal" class="modal hide">
+            <div class="rules-mdal-content">
+                <span class="close">&times;</span>
+                    <h4 class="text-center">About US</h4>
+                    <ul claas="rules-list">
+                    <li>
+                     We are a small design company that loves old school games, we're trying to bring a twist back to the 20th century.
+                    </li>
+                    <li>
+                    Tic tac toe is by no means an unfamiliar game we're trying to help couples and siblings settle arguments about their chores & have some fun while it's been accomplish.
+                    </li>
+                    <li>
+                    Basic rules apply you have three "X" or "O" to match for a winner, we plan to implement more games in the future such as the legendary snake game!
+                    </li>
+                </ul>            
+            </div>
+        </div>
+    </section>
+
 <!------------------------------------ Body ----------------------------------->
 
     <div class="container">
@@ -116,7 +135,7 @@
 
     <section class="pop-up">
         <p>TIE!</p>
-        <button class="btn btn-warning">Play Again</button>
+        <button type="button" class="btn btn-warning">Play again</button>
 
     </section>
 

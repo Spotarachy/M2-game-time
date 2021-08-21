@@ -9,7 +9,7 @@
         body {
              font-family: open-sans;
              color: black;
-             background-color: rgb(90, 151, 153);
+             background-color: #B0C4DE;
           }
 
         
@@ -150,29 +150,30 @@
           width: 100%;
           padding: 30px 30px 30px 30px;
           border: 1px solid coral;
-          background-color: #777777;
+          background-color: #F0F8FF;
           
         }
         
 
-
 /*------------------------ Image Contact ------------------------------------*/ 
         .modal-hide {
           margin:  auto;
-          width: 1000px;
+          width: 700px;
         }
 
         .img-fluid {
-              
-              height: auto;
-              width: 75%;
-              left: 40px;
-              padding: 5px 5px 5px 5px;  
+          position: absolute;
+          height: 500px;
+          left: 50px;
+          width: calc(100% - 100px);
+          border: 1px solid coral;
+          padding: 25px;
+          background-color: #F0F8FF;  
           }
 
 /*--------------------------- Contact  --------------------------------------*/ 
           
-        .rules-modal-coontent {
+        .rules-modal-content {
             background-color: #777777;
             margin: 15% auto;
             padding: 20px;
