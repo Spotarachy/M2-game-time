@@ -235,44 +235,68 @@ All items provided came from across the websites such as bootstraps and font awe
 
 ## WIREFRAMS 
 
-1.** WebSite:**
+Wirefram was maed with me and we'll balsamiq:
 
+1.** WebSite:**
+![Landing page](assets/image/wireframes/W1.png)
+
+![Landing page](assets/image/wireframes/W2.png)
+
+![Landing page](assets/image/wireframes/W3.png)
+
+![Landing page](assets/image/wireframes/W4.png)
 
 2.** Moblie:**
+![Landing page](assets/image/wireframes/M1.png)
 
+![Landing page](assets/image/wireframes/M2.png)
+
+![Landing page](assets/image/wireframes/M3.png)
 
 ---
 ``` 
 Features
 ```
 
-*
-*
-*
-*
-*
-
 ---
 ## VALIDATORS 
-   * HTML Validator https://jsonformatter.org/html-validator
+
+ These are validating websites that are used to validate my website properly.
+
+   * HTML Validator 
+   [HTML Validaton](https://jsonformatter.org/html-validator)
+
+   * W3C Markup Validation Service:
+   [W3C Validation](https://validator.w3.org/#validate_by_input)
+
+   * Css Validation Service:
+   [CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
 
 ## TESTING 
-  
-   * https://jshint.com/ ued for all the js code errors in my code: 
+
+   * Performance: 
+   [google developers](https://developers.google.com/web/tools/lighthouse)
+
+   * Accessibility: 
+   [Wave](https://wave.webaim.org/)
+
+   * Ued for all the js code errors in my code:
+   [JS Code](https://jshint.com/)
    
-   "JSHint, a tool that helps to detect errors and potential
-    problems in your JavaScript code."
+   * JSHint, a tool that helps to detect errors and potential problems in your JavaScript code."
+   [JS Hint](https://validator.w3.org)
 
-   * https://validator.w3.org
+   ![w3](./assets/image/testing/01.png)
     
-
 
 
 ## KONWN BUGS 
 
+Near several known bugs in the course of making this website, I will link a code to the source code.
 
-
-
+[Konwn Bugs](https://github.com/Spotarachy/M2-game-time/blob/master/None.Bugs.html)
+ 
 ---
 ```
 Developmnet
@@ -297,12 +321,9 @@ Pexels operates the website www.pexels.com ("Website"), a platform that allows y
 
 (Note! Phrase from original website)
 * Web page
-
-
 [Pexels](https://www.pexels.com/)
 
- ![art](assets/image/about/gen1.jpeg)
-
+![Example](assets/image/game/gen1.png)
 
 
 ### Colour Credit 
@@ -329,6 +350,10 @@ Would like to give credit to:
 
 ## ACKONWLEDGEMENTS 
 
+
+I must Acknowledge tinyPNG is a really cool website to make your photos smaller.
+
+[Tinypng](https://tinypng.com/)
 
 
 
