@@ -1,7 +1,7 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Spotarachy/M2-game-time)
 
 
-## ```Who will it be!```
+## ```WH0 WILL IT BE!```
 
 ![Mockup](assets/image/landing/background.png)
 
@@ -18,7 +18,7 @@ About
 /* This will be my Milston M2 projcet, i've made this game to help Couples and roommates finally solve the problem odf who's turn is it to wash thee dishes, by Mario F Wilson, lets see how it's made, injoy. */
 
 
-## Table of contents
+## TABLE OF CONTENTS 
 
 [UX - User Experience](#ux)
    * [Project Goals](#project-goals)
@@ -80,7 +80,7 @@ At Dicsh Tac Toe we aim to have the most enjoyable time when it comes to establi
 
 By giving out visitors a fun way to interact and to play games, best out of three win's, and will hopefully get you on the right track to being a happy couple after she beat you,and the Dicsh has been cleared.
 
-# Project Goals
+# PROJECT GOALS 
 
    1. To help and provide an easy way to solve problme.
    2. To give are uses a plces where they can come to an agreement.
@@ -89,7 +89,7 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    5. To have fun!
 
 
-# User Stories
+# USER STORIES
 
 *  ## Visitting 1st time: 
 
@@ -113,10 +113,10 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    19. Easy way to stop argument.
    20. It made us laugh.
    21. They gave us a jolly old time alright!
-   22. Will keep coming back to see if more games has been added.
+   22. Will keep coming back to see if more games has been   added.
 
   
-* ## Frequent Users of the site:
+* ## Frequent Users :
 
 
    23. To see how the site has developed from the first time we have been invited to it.
@@ -148,31 +148,31 @@ For the design of this webpage we went for a fairly simple design of tic-tac-toe
 
 
 
-## Colours
+## COLOURS 
 
 The colours of implementing for this website our from two earth are favourite websites for choosing a precise RGB colours.
 
 * Primary colours use, for over all look and feel of the pages we're:
 
     1. #B0C4ED rgb (176,196,237) 
-    [MIT](https://www.color-hex.com/color/b0c4ed)
+    [Click Me](https://www.color-hex.com/color/b0c4ed)
 
     2. #FOF8FF rgb (240,248,255)
-    [MIT](https://www.color-hex.com/color/f0f8ff)
+    [Click Me](https://www.color-hex.com/color/f0f8ff)
 
     3. #FFFFFF rgb  (255,255,255) 
-    [MIT](https://www.color-hex.com/color/ffffff)
+    [Click Me](https://www.color-hex.com/color/ffffff)
 
     4. #000000  rgb  ( 0 , 0 ,  0  )
-    [MIT](https://www.color-hex.com/color/000000)
+    [Click Me](https://www.color-hex.com/color/000000)
     
 * Secondary colours use, for the overall look and style our:
 
-   5. #555555 rgb (85 ,85 ,85) [MIT](https://www.color-hex.com/color/555555)
+   5. #555555 rgb (85 ,85 ,85) [Click Me](https://www.color-hex.com/color/555555)
 
-   6. #007BFF rgb (0, 123, 255)[MIT](https://www.color-hex.com/color/007bff)
+   6. #007BFF rgb (0, 123, 255)[Click Me](https://www.color-hex.com/color/007bff)
 
-   7. #F9690E rgb (249 ,105,14)[MIT](https://www.color-hex.com/color/f9690e)
+   7. #F9690E rgb (249 ,105,14)[Click Me](https://www.color-hex.com/color/f9690e)
 
 
 * Full colour graph:
@@ -182,27 +182,56 @@ The colours of implementing for this website our from two earth are favourite we
 Credit for use of the website will be in the acknowledgement section of this README.md
 
 
-## Typography
+## TYPOGRAPHY 
 
-* The main font that is going to be use is Roboto, Regular 400, this font is going be uesd through the whole website, this font came form Google fonts.
-    * Why Roboto:
-      [MIT]()
+1. The main font that is going to be use is Open Sans,
+   Light 300 italic, this font is going be uesd through the whole website, this font came form Google fonts.
+
+   * Why Open Sans:
+      [Google fonts](https://fonts.google.com/specimen/Open+Sans#about)
+   
+   * Designerd by: Matteson Typographics.
+      [Type Design & Consulting](https://mattesontypographics.com/)
   
 
-* The back up font will be poppins, at 100 italic, just in case the main font is not loading propely on the website, this font is also will be Source form Google Fonts.
-    * Why Poppins: 
-      [MIT](https://fonts.google.com/specimen/Poppins#about)
+2. The secondary fonts for (h2) that was used was :vArial Narrow Bold sans-serif, Font was generated straight from the CSS3 browser! 
+No can be provided..
+
+   * Why Arial Narrow Bold  sans-serif: 
+      was used to add symmetry to the website!
+
+      For Visual Example of Font:[Arial](https://www.cssfontstack.com/Arial-Narrow)
 
 
-## Images
+3. The territory fonts for (h3) that was used wa: Georgia, 'Times New Roman', Times, serif, Font was generated straight from the CSS3 browser! No can be provided..
+
+   * Why Georgia, 'Times New Roman', Times, serif:
+      was uesd to add a different feel to the headers!
+
+      For Visual Example of Font:[Georgia](https://www.cssfontstack.com/Georgia)
+      
 
 
+## IMAGES 
 
-## Icons
+All my images are high-quality 4K images that was sauce from pixels website through my account which are free for public use.
 
+* Images will be Source for [Pexels](https://www.pexels.com/search/Tic%20tac%20toe/) 
+For Free to uesd images from [my account](https://www.pexels.com/@mario-f-wilson-58865816).
 
+Please follow this link to see all images [Imageas](https://github.com/Spotarachy/M2-game-time/tree/master/assets/image)
 
-## Wireframs
+Note: Not all for those images present were added to this project!
+
+## ICONS 
+
+All items provided came from across the websites such as bootstraps and font awesome.
+
+* Social Media were sourced form [Font Awesome](https://fontawesome.com) and [Google Fonts](https://fonts.google.com/icons)
+
+* Other icons resource from [Bootstrap](https://getbootstrap.com/docs/4.0/extend/icons/)
+
+## WIREFRAMS 
 
 1.** WebSite:**
 
@@ -222,10 +251,10 @@ Features
 *
 
 ---
-## Validator
+## VALIDATORS 
    * HTML Validator https://jsonformatter.org/html-validator
 
-## Testing
+## TESTING 
   
    * https://jshint.com/ ued for all the js code errors in my code: 
    
@@ -237,7 +266,10 @@ Features
 
 
 
-## Konwn Bugs
+## KONWN BUGS 
+
+
+
 
 ---
 ```
@@ -245,16 +277,29 @@ Developmnet
 ```
 
 
-## Github Page
+## GITHUB 
+
+Webpage will be deployed form GitHub:
+
+https://spotarachy.github.io/M2-game-time/index.html
 
 
+## CREDIT
 
 
-## Credit
+### Image Credit
+
+Would like to give credit to:
+
+Pexels operates the website www.pexels.com ("Website"), a platform that allows you to post, link, store, share and otherwise make available certain information, text, graphics, photos, videos, or other material (together "Content"). Our goal is to help designers, bloggers and everyone who is looking for an image to find photos and other Content that you can use for free subject to and in compliance with these Terms.
+
+(Note! Phrase from original website)
+* Web page
+
+[Pexels](https://www.pexels.com/)
 
 
-
-# Colour Credit 
+### Colour Credit 
 
 Would like to give credit to:
 
@@ -263,7 +308,6 @@ Color-hex gives information about colors including color models (RGB,HSL,HSV and
 (Note! Phrase from original website)
 * Web page
 [Color-hex](https://www.color-hex.com/)
-
 * Terms of Services
 [Color-hex](https://www.color-hex.com/privacy.php)
 
@@ -274,11 +318,10 @@ Would like to give credit to:
 
 * Web page
 [Coolors](https://coolors.co/)
-
 * Terms of Services
 [Coolors](https://coolors.co/terms-of-service)
 
-### Ackonwledgements
+## ACKONWLEDGEMENTS 
 
 
 
