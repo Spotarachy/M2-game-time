@@ -156,7 +156,7 @@ Features
 
 ---
 ### Validator
-
+   * HTML Validator https://jsonformatter.org/html-validator
 
 ### Testing
   
