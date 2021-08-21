@@ -23,13 +23,22 @@ About
 [UX - User Experience](#ux)
    * [Project Goals](#project-goals)
    * [User Stories](#user-stories)
+
      1. Visitiing the site for the fist time
+
      2. Returning Visitor to the site
+
      3. Frequent User to the site
 
 [Design](#design-choices)
 
    * [Colours](#colours)
+     1. Primary colours listening.
+
+     2. Secondary colour listening.
+
+     3. Full colour graph.
+
    * [Typography](#typography)
    * [Images](#images)
    * [Icons](#icons)
@@ -43,9 +52,13 @@ About
   * [Validator](#validator)
   * [Testing](#Testing)
   * [Further-teseting](#Further-testing)
+
      1. index.html
+
      2. desktop
+
      3. perfromace 
+
   * [Konws-bugs](#Konws-bugs)
 
   [Developmnet](#Developmnet)
@@ -67,7 +80,7 @@ At Dicsh Tac Toe we aim to have the most enjoyable time when it comes to establi
 
 By giving out visitors a fun way to interact and to play games, best out of three win's, and will hopefully get you on the right track to being a happy couple after she beat you,and the Dicsh has been cleared.
 
-## Project Goals
+# Project Goals
 
    1. To help and provide an easy way to solve problme.
    2. To give are uses a plces where they can come to an agreement.
@@ -76,9 +89,9 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    5. To have fun!
 
 
-## User Stories
+# User Stories
 
-*  Visitting 1st time: 
+*  ## Visitting 1st time: 
 
    6. How fast is the website loading.
    7. Is the website easy to understand.
@@ -92,7 +105,7 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    15. Interactive.
 
 
-* Returning visitor:
+* ## Returning visitor:
 
    16. I wanna see my top score for my last visit.
    17. Will the website remember my username. 
@@ -101,8 +114,10 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    20. It made us laugh.
    21. They gave us a jolly old time alright!
    22. Will keep coming back to see if more games has been added.
+
   
-* Frequent Users of the site:
+* ## Frequent Users of the site:
+
 
    23. To see how the site has developed from the first time we have been invited to it.
    24. Enjoy the interaction. 
@@ -113,7 +128,7 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    29. Kept in the loop of updates to the website or if the site is gonna go down.
    
 
-4.** Site Ower Goal:**
+* ## Site Ower Goal:
 
    30. As site owner, I want to give people back time to spend together.
    31. As site owner, I wanted to be easy to navigate and very responsive.
@@ -160,15 +175,23 @@ The colours of implementing for this website our from two earth are favourite we
    7. #F9690E rgb (249 ,105,14)[MIT](https://www.color-hex.com/color/f9690e)
 
 
+* Full colour graph:
+
 ![alt](assets/image/colour/colours.png)
 
 Credit for use of the website will be in the acknowledgement section of this README.md
 
 
-
-
 ## Typography
 
+* The main font that is going to be use is Roboto, Regular 400, this font is going be uesd through the whole website, this font came form Google fonts.
+    * Why Roboto:
+      [MIT]()
+  
+
+* The back up font will be poppins, at 100 italic, just in case the main font is not loading propely on the website, this font is also will be Source form Google Fonts.
+    * Why Poppins: 
+      [MIT](https://fonts.google.com/specimen/Poppins#about)
 
 
 ## Images
@@ -176,6 +199,8 @@ Credit for use of the website will be in the acknowledgement section of this REA
 
 
 ## Icons
+
+
 
 ## Wireframs
 
@@ -197,10 +222,10 @@ Features
 *
 
 ---
-### Validator
+## Validator
    * HTML Validator https://jsonformatter.org/html-validator
 
-### Testing
+## Testing
   
    * https://jshint.com/ ued for all the js code errors in my code: 
    
@@ -212,7 +237,7 @@ Features
 
 
 
-### Konwn Bugs
+## Konwn Bugs
 
 ---
 ```
@@ -220,11 +245,41 @@ Developmnet
 ```
 
 
-### Github Page
+## Github Page
 
-### Credit
+
+
+
+## Credit
+
+
+
+# Colour Credit 
+
+Would like to give credit to:
+
+Color-hex gives information about colors including color models (RGB,HSL,HSV and CMYK), Triadic colors, monochromatic colors and analogous colors calculated in color page. also generates a simple css code for the selected color. Html element samples are also shown below the color detail page. 
+
+(Note! Phrase from original website)
+* Web page
+[Color-hex](https://www.color-hex.com/)
+
+* Terms of Services
+[Color-hex](https://www.color-hex.com/privacy.php)
+
+
+Would like to give credit to:
+
+ Coulors website for accurate RGB colours all the time free to use to each users with the same I have added a link to their search terms and conditions.
+
+* Web page
+[Coolors](https://coolors.co/)
+
+* Terms of Services
+[Coolors](https://coolors.co/terms-of-service)
 
 ### Ackonwledgements
+
 
 
 
