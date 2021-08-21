@@ -40,15 +40,26 @@ About
      3. Full colour graph.
 
    * [Typography](#typography)
+
+     1. Open Sans            
+
+     2. Arial Narrow Bold sans-serif
+
+     3. Georgia, 'Times New Roman'
+
    * [Images](#images)
+
+     1. Pexels
+
    * [Icons](#icons)
    * [Layout](#layout)
    * [Wireframes](#wireframes)
 
+     1. Website 
 
- [Features](#Features)
+     2. Mobile 
 
-
+  * [Features](#Features)
   * [Validator](#validator)
   * [Testing](#Testing)
   * [Further-teseting](#Further-testing)
@@ -65,6 +76,11 @@ About
 
    * [GithubPage](#Github Page)
    * [Credit](#Credit)
+
+      1. Image credit
+
+      2. Colour credit
+      
    * [Acknowledgements](#Acknowledgement)
 
 
@@ -240,18 +256,8 @@ Wirefram was maed with me and we'll balsamiq:
 1.** WebSite:**
 ![Landing page](assets/image/wireframes/W1.png)
 
-![Landing page](assets/image/wireframes/W2.png)
-
-![Landing page](assets/image/wireframes/W3.png)
-
-![Landing page](assets/image/wireframes/W4.png)
-
 2.** Moblie:**
 ![Landing page](assets/image/wireframes/M1.png)
-
-![Landing page](assets/image/wireframes/M2.png)
-
-![Landing page](assets/image/wireframes/M3.png)
 
 ---
 ``` 
