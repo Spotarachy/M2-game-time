@@ -221,6 +221,8 @@ For Free to uesd images from [my account](https://www.pexels.com/@mario-f-wilson
 
 Please follow this link to see all images [Imageas](https://github.com/Spotarachy/M2-game-time/tree/master/assets/image)
 
+![Example](assets/image/topwin/topwins.png)
+
 Note: Not all for those images present were added to this project!
 
 ## ICONS 
@@ -296,7 +298,11 @@ Pexels operates the website www.pexels.com ("Website"), a platform that allows y
 (Note! Phrase from original website)
 * Web page
 
+
 [Pexels](https://www.pexels.com/)
+
+ ![art](assets/image/about/gen1.jpeg)
+
 
 
 ### Colour Credit 
