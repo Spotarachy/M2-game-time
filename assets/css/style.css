@@ -162,7 +162,8 @@
         }
 
         .img-fluid {
-          position: absolute;
+    
+          position: relative;
           height: 500px;
           left: 50px;
           width: calc(100% - 100px);
