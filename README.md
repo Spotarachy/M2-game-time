@@ -3,13 +3,14 @@
 
 ## ```Who will it be!```
 
-![Mockup](./image/landing.png)
+![Mockup](assets/image/landing/background.png)
 
 https://spotarachy.github.io/M2-game-time/index.html
 
 
 
 ---
+
 ```
 About
 ```
@@ -35,15 +36,17 @@ About
    * [Layout](#layout)
    * [Wireframes](#wireframes)
 
+
  [Features](#Features)
+
 
   * [Validator](#validator)
   * [Testing](#Testing)
-  * [Further-testing](#further testing)
+  * [Further-teseting](#Further-testing)
      1. index.html
      2. desktop
      3. perfromace 
-  * [Known-Bugs](#known Bugs)
+  * [Konws-bugs](#Konws-bugs)
 
   [Developmnet](#Developmnet)
 
@@ -54,17 +57,17 @@ About
 
 
 ---
+
 ```
 UX - User experience
 ```
-
 
 
 At Dicsh Tac Toe we aim to have the most enjoyable time when it comes to establishing peacs in your life, by helping are visitors to find out who's turn is it to wash the dish?
 
 By giving out visitors a fun way to interact and to play games, best out of three win's, and will hopefully get you on the right track to being a happy couple after she beat you,and the Dicsh has been cleared.
 
-### Project Goals
+## Project Goals
 
    1. To help and provide an easy way to solve problme.
    2. To give are uses a plces where they can come to an agreement.
@@ -73,9 +76,9 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    5. To have fun!
 
 
-### User Stories
+## User Stories
 
-1.** Visitting 1st time: **
+*  Visitting 1st time: 
 
    6. How fast is the website loading.
    7. Is the website easy to understand.
@@ -88,7 +91,8 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    14. Simply. 
    15. Interactive.
 
-2.** Returning visitor:**
+
+* Returning visitor:
 
    16. I wanna see my top score for my last visit.
    17. Will the website remember my username. 
@@ -98,7 +102,7 @@ By giving out visitors a fun way to interact and to play games, best out of thre
    21. They gave us a jolly old time alright!
    22. Will keep coming back to see if more games has been added.
   
-3.** Frequent Users of the site:**
+* Frequent Users of the site:
 
    23. To see how the site has developed from the first time we have been invited to it.
    24. Enjoy the interaction. 
@@ -120,27 +124,60 @@ By giving out visitors a fun way to interact and to play games, best out of thre
 
 
 ---
+
 ```
 Designs
 ```
+
 For the design of this webpage we went for a fairly simple design of tic-tac-toe then incorporated  our simple style to fulfil the players & our clients wishes for the design and the functionality of this page and game.
 
 
-### Colours
+
+## Colours
+
+The colours of implementing for this website our from two earth are favourite websites for choosing a precise RGB colours.
+
+* Primary colours use, for over all look and feel of the pages we're:
+
+    1. #B0C4ED rgb (176,196,237) 
+    [MIT](https://www.color-hex.com/color/b0c4ed)
+
+    2. #FOF8FF rgb (240,248,255)
+    [MIT](https://www.color-hex.com/color/f0f8ff)
+
+    3. #FFFFFF rgb  (255,255,255) 
+    [MIT](https://www.color-hex.com/color/ffffff)
+
+    4. #000000  rgb  ( 0 , 0 ,  0  )
+    [MIT](https://www.color-hex.com/color/000000)
+    
+* Secondary colours use, for the overall look and style our:
+
+   5. #555555 rgb (85 ,85 ,85) [MIT](https://www.color-hex.com/color/555555)
+
+   6. #007BFF rgb (0, 123, 255)[MIT](https://www.color-hex.com/color/007bff)
+
+   7. #F9690E rgb (249 ,105,14)[MIT](https://www.color-hex.com/color/f9690e)
+
+
+![alt](assets/image/colour/colours.png)
+
+Credit for use of the website will be in the acknowledgement section of this README.md
 
 
 
-### Typography
+
+## Typography
 
 
 
-### Images
+## Images
 
 
 
-### Icons
+## Icons
 
-### Wireframs
+## Wireframs
 
 1.** WebSite:**
 

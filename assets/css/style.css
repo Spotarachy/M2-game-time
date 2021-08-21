@@ -8,7 +8,7 @@
 
         body {
           font-family: open-sans;
-          color: black;
+          color: rgb(0, 0, 0);
           background-color: #B0C4DE;
         }
 
@@ -72,7 +72,7 @@
           height: 50%;
           width: 50%;
           background-color: #fff;
-          border: 1px solid #333;
+          border: 1px solid rgb(3, 3, 3);
           margin: 8px;
           float: left;
           line-height: 50px;
@@ -186,10 +186,10 @@
           overflow: auto;
           background-color: #F0F8FF;
           text-align: center;
-          text-emphasis-color: #333;
+          text-emphasis-color: #777;
         }  
         .rules-modal-content {
-          background-color: #777777;
+          background-color: #777;
           margin: 15% auto;
           padding: 15px;
           border: 1px solid #007bff;
