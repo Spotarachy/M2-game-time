@@ -7,6 +7,8 @@
 
 https://spotarachy.github.io/M2-game-time/
 
+http://spotarachy.github.io/M2-game-time/index.html
+
 
 ---
 
