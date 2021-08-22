@@ -1,4 +1,4 @@
-startButton.addEventListener("click",Start);
+startButton.addEventListener("click",Play Again);
 
 function startTimer(){
     var count = document.getElementById("timer");

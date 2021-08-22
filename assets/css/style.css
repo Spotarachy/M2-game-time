@@ -36,15 +36,14 @@
         }
 
         h6 {
-
-          size: bold;
+          margin-top: auto;
           text-align: center;
           font-style: italic;
           color: #ffffff;
         }
 
         h2 {
-          border: top 7%;
+          border: top 2px;
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           text-transform: uppercase;
           letter-spacing: 4px;
@@ -56,24 +55,24 @@
         }
  /*------------------------ js table --------------------------------*/      
         .board {
-          margin: 130px auto;
+          margin: 20px auto;
             
         }
 
         .board .box-row {
           clear: both;
           width: 200px;
-          height: 75%;
+          height: 60px;
           margin: 0 auto;
         }
 
         .board .box-row .box {
           display: block;
-          height: 50%;
-          width: 50%;
+          height: 50px;
+          width: 50px;
           background-color: #fff;
           border: 1px solid #333;
-          margin: 8px;
+          margin: 5px;
           float: left;
           line-height: 50px;
           text-align: center;
@@ -97,14 +96,18 @@
           font-size: 16px;
         }
 
-        #pop-up {
+        .pop-up .click {
           margin: 20px auto;
           font-weight: bold;
           text-align: center;
           font-size: 18px;
           left: 20px;
+          padding: 20px;
         }
-
+        .button{
+          text-align: center;
+          position: fixed;
+        }
   /*----------------------- logo' & Menu-------------------------------*/      
         #logo {
           float: left;
@@ -141,35 +144,37 @@
         }     
 /*------------------------- Image Index  -------------------------------------*/
         .jumbotron-fluid {
-          margin:  auto;
-          width: 690%;
-          min-width: fit-content;    
+          
+          width: 50vw;
+          height: 50vh;
+          display: inline-block; 
+          box-sizing: border-box;  
         }
 
         .landing {
-          position: relative;
-          height: auto;
-          width: 100%;
-          padding: 30px 30px 30px 30px;
-          border: 1px solid coral;
-          background-color: #F0F8FF;
-         
           
+          width: 100%;
+          height: 100% ;
+          padding: 20px 20px 20px 20px;
+          border: 1px solid coral;
+          background-color: #F0F8FF; 
         }
         
 /*----------------------- Image Contact ------------------------------------*/ 
         .modal-hide {
-          width: 400px;
+          width: 50vw;
+          height: 50vh;
+          display: inline-block;
+          box-sizing: border-box;
         }
-      /* Example for w3schools.com*/
+
         .img-fluid {
           border: top 40%;
-          position: relative;
-          height: 500px;
-          left: 50px;
-          width: calc(100% - 100px);
+          height: 100%;
+          left: 0px;
+          width: calc(100% - 100vw);
           border: 1px solid coral;
-          padding: 25px;
+          padding: 20px;
           background-color: #F0F8FF;  
         }
 
@@ -177,17 +182,19 @@
 
         .modal {
           position: fixed;
-          left: 0;
+          left: 0px;
           right: 0;
           z-index: 1;
           top: 0;
-          width: 100%;
+          width: 60%;
           height: 100%;
           overflow: auto;
           background-color: #F0F8FF;
           text-align: center;
           text-emphasis-color: #777;
+          
         }  
+
         .rules-modal-content {
           background-color: #777;
           margin: 15% auto;
