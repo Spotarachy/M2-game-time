@@ -5,7 +5,7 @@
 
 ![Mockup](assets/image/landing/background.png)
 
-https://spotarachy.github.io/M2-game-time/index.html
+https://spotarachy.github.io/M2-game-time/
 
 
 ---
