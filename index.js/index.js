@@ -1,18 +1,18 @@
-var box1 = document.getElementById("box1");
-var box2 = document.getElementById("box2");
-var box3 = document.getElementById("box3");
-var box4 = document.getElementById("box4");
-var box5 = document.getElementById("box5");
-var box6 = document.getElementById("box6");
-var box7 = document.getElementById("box7");
-var box8 = document.getElementById("box8");
-var box9 = document.getElementById("box9");
+let box1 = document.getElementById("box1");
+let box2 = document.getElementById("box2");
+let box3 = document.getElementById("box3");
+let box4 = document.getElementById("box4");
+let box5 = document.getElementById("box5");
+let box6 = document.getElementById("box6");
+let box7 = document.getElementById("box7");
+let box8 = document.getElementById("box8");
+let box9 = document.getElementById("box9");
 
-var boxes = document.querySelectorAll(".box");
+let boxes = document.querySelectorAll(".box");
 
-var turn = document.getElementById("turn");
-var xWins = document.getElementById("x_wins");
-var oWins = document.getElementById("o_wins");
+const turn = document.getElementById("turn");
+const xWins = document.getElementById("x_wins");
+const oWins = document.getElementById("o_wins");
 
 var xTurn = false;
 var xWinsCount = 0;
@@ -20,22 +20,22 @@ var oWinsCount = 0;
 
 clearBoxes();
 
-for (var i = 0; i < boxes.length; i++) {
+for (let i = 0; i < boxes.length; i++) {
     boxes[i].onclick = function () {
-        // not allow to change this value for this box
-
-        if (this.innerHTML !== '') {
+        if (this.innerHTML === '') {
             return;
         }
-
         this.innerHTML = xTurn === true ? "X" : "O";
-
         xTurn = !xTurn;
-
+        highlighter(xIcon)
+        highlighter(oIcon)
         updateTurnText();
-
         getWinner();
     };
+}
+
+function highlighter(target) {
+  target.classList.contains('high')? target.classList.remove('high'): target.classList.add('high')
 }
 
 function clearBoxes() {
@@ -44,9 +44,7 @@ function clearBoxes() {
         boxes[boxLen].innerHTML = '';
         boxes[boxLen].classList.remove('win');
     }
-
     xTurn = Math.random() < 0.5;
-
     updateTurnText();
 }
 
