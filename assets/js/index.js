@@ -8,11 +8,15 @@ let box7 = document.getElementById("box7");
 let box8 = document.getElementById("box8");
 let box9 = document.getElementById("box9");
 
-let boxes = document.querySelectorAll(".box");
+
 
 const turn = document.getElementById("turn");
 const xWins = document.getElementById("x_wins");
 const oWins = document.getElementById("o_wins");
+const xIcon = document.getElementById("x");
+const oIcon = document.getElementById('circle');
+
+let boxes = document.querySelectorAll(".box");
 
 var xTurn = false;
 var xWinsCount = 0;
@@ -34,9 +38,18 @@ for (let i = 0; i < boxes.length; i++) {
     };
 }
 
+/**
+ * 
+ * @param {string} target element to highlight 
+ */
+
 function highlighter(target) {
   target.classList.contains('high')? target.classList.remove('high'): target.classList.add('high')
 }
+
+/**
+ @param {string} Clears boxes and resets game
+ */
 
 function clearBoxes() {
     var boxLen = boxes.length;
@@ -44,9 +57,17 @@ function clearBoxes() {
         boxes[boxLen].innerHTML = '';
         boxes[boxLen].classList.remove('win');
     }
-    xTurn = Math.random() < 0.5;
-    updateTurnText();
+if (!xTurn) {
+    xTurn = turn
+    if(!xIcon.classList.contains('high')){
+        xIcon.classList.add('high');
+        oIcon.classList.remove('high');
+        }
+  }
+  
+  updateTurnText();
 }
+
 
 function updateTurnText() {
     turn.innerHTML = xTurn === true ? "X turn" : "O turn";
@@ -58,7 +79,6 @@ function selectWinnerBoxes(b1, b2, b3) {
     b3.classList.add("win");
 
     turn.innerHTML = (xTurn === true ? "O" : "X") + " Won Congrats";
-**
 
     if (xTurn) {
        Swal.fire({ "Swal": Unkown word.
