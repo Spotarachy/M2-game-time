@@ -32,7 +32,7 @@
                     <i class="fas fa-dice"></i>
                 </a>
                 <a class="navbar-brand" href="index.html"></a>      
-                 <!--- Button is form Boostrap --->
+<!--- Button is form Boostrap --->
                         <button class="navbar-toggler hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigetion" inlign="text-right">
                         <span class="navbar-toggler-icon"></span>                
                         </button>
@@ -81,6 +81,7 @@
 </section>
 
 <!--- Body ---->
+<section>
 <h1 id="logo">Dish-Tac-Toe</h1>
  <div class="container">  
         <button type="button" class="btn btn-primary" href="game.html" id="start">Start</button> 
@@ -115,10 +116,11 @@
         <div class="clear"></div>
     </div>
 
-    <div class="col-sm-12 col-md-4">
-        <i class="far fa-times turn-icon high" id="circle"></i>
+    <div class="col-sm-12 col-md-4 align-self-center text-center">
+        <i class="far fa-times turn-icon player-icon" id="circle"></i>
         <h3>"Turn"></h3>
     </div>
+    <div id="turn"></div>
     <section class="score">
         <div class="x-score">O : <span id="x_wins">X</span></div>
         <div>SCORE</div>
@@ -147,8 +149,7 @@
         </ul>
     </div>
 </footer>
-    <script src="./index.js/index.js"></script>
-   
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
