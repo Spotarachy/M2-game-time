@@ -235,8 +235,12 @@
           padding: 5%;
           color: #777777;
         }
-@media screen {
-  
-}
+        .player-icon {
+        font-size: 3rem;
+        }
+
+        .high {
+          color: #007bff;
+        }
         
 

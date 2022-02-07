@@ -34,7 +34,7 @@
                 <a class="navbar-brand" href="index.html"></a>      
 <!--- Button is form Boostrap --->
                         <button class="navbar-toggler hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigetion" inlign="text-right">
-                        <span class="navbar-toggler-icon"></span>                
+                        <span class="navbar-toggler-icon"><span>                
                         </button>
                 <div class="collapse navbar-collapse" id="navbarNav"> 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-inline">
@@ -43,9 +43,6 @@
                         </li>
                         <li class="nav-link">
                             <a class="nav-link active" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-link">
-                            <a class="nav-link" id="rules-link"></a>
                         </li>
                     </ul> 
                 </div>
@@ -89,13 +86,15 @@
          <h3> <b>Steps :</b></h3>
     <ul>
         <li>To Start playing click the "Start" button</li>
-        <small>If you with like to Restart the game click on "Play Again"</small>
+        <small>If you with like to Restart the game click on "Play Again"<small>
     </ul>
 <div class="container-fluid">
-    <div class="row">
-        <i class="fas fa-times turn-icon high" id="x"></i>
+    <div class="row align-items-center">
+        <div class="col-4 align-self-center text-center">
+        <i class="fas fa-times turn-icon high player-icon" id="x"></i>
         <h3>Turn</h3>
     </div>
+</div>
 <div class="col-sm-12 col-md-4">
     <div class="board">
         <div class="box-row">
@@ -118,7 +117,7 @@
 
     <div class="col-sm-12 col-md-4 align-self-center text-center">
         <i class="far fa-times turn-icon player-icon" id="circle"></i>
-        <h3>"Turn"></h3>
+        <h3>Turn</h3>
     </div>
     <div id="turn"></div>
     <section class="score">
@@ -149,7 +148,8 @@
         </ul>
     </div>
 </footer>
-    
+    <script src="./assets/js/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>

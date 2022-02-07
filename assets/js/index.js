@@ -1,20 +1,20 @@
-let box1 = document.getElementById("box1");
-let box2 = document.getElementById("box2");
-let box3 = document.getElementById("box3");
-let box4 = document.getElementById("box4");
-let box5 = document.getElementById("box5");
-let box6 = document.getElementById("box6");
-let box7 = document.getElementById("box7");
-let box8 = document.getElementById("box8");
-let box9 = document.getElementById("box9");
-
-
 
 const turn = document.getElementById("turn");
 const xWins = document.getElementById("x_wins");
 const oWins = document.getElementById("o_wins");
 const xIcon = document.getElementById("x");
 const oIcon = document.getElementById('circle');
+
+const box1 = document.getElementById("box1");
+const box2 = document.getElementById("box2");
+const box3 = document.getElementById("box3");
+const box4 = document.getElementById("box4");
+const box5 = document.getElementById("box5");
+const box6 = document.getElementById("box6");
+const box7 = document.getElementById("box7");
+const box8 = document.getElementById("box8");
+const box9 = document.getElementById("box9");
+
 
 let boxes = document.querySelectorAll(".box");
 
@@ -26,8 +26,8 @@ clearBoxes();
 
 for (let i = 0; i < boxes.length; i++) {
     boxes[i].onclick = function () {
-        if (this.innerHTML === '') {
-            return;
+        if (!this.innerHTML === '') {
+            return
         }
         this.innerHTML = xTurn === true ? "X" : "O";
         xTurn = !xTurn;
@@ -52,20 +52,20 @@ function highlighter(target) {
  */
 function clearBoxes() {
     var boxLen = boxes.length;
-    while (boxLen --) {
+    while (boxLen--) {
         boxes[boxLen].innerHTML = '';
         boxes[boxLen].classList.remove('win');
     }
-if (!xTurn) {
+    if (!xTurn) {
     xTurn = turn
-    if(!xIcon.classList.contains('high')){
+        if(!xIcon.classList.contains('high')){
         xIcon.classList.add('high');
         oIcon.classList.remove('high');
         }
   }
-  
   updateTurnText();
 }
+
 /**
  * 
  Just an update TurnTEXT
@@ -88,37 +88,36 @@ function selectWinnerBoxes(b1, b2, b3) {
     turn.innerHTML = (xTurn === true ? "O" : "X") + " Won Congrats";
 
     if (xTurn) {
-       Swal.fire({ "Swal":
+       Swal.fire({
        posititon: 'center',
        title: 'O Wins',
        showConfirmButton: false,
-       timer:2500,
-       })
+       timer: 2500,
+    })
+    updateWinCount(false)
 
     } else {
-        Swal.fire({ "Swal": 
+        Swal.fire({
        posititon: 'center',
        title: 'X Wins',
        showConfirmButton: false,
-       timer:2500,
+       timer: 2500,
     })
-    
-    updateWinCount(turn);
+    updateWinCount(turn)
 }
-     updateWinCount();
+updateWinCount();
 }
+
 /**
  * @param {*} xWins oWins counter
  */
-function updateWinCount() {
+function updateWinCount(xWins) {
     if (xWins) {
-        xWins.innerHTML = ++ xWinsCount;
+        xWins.innerHTML = ++xWinsCount;
     } else {
-        oWins.innerHTML = ++ oWinsCount;
-
+        oWins.innerHTML = ++oWinsCount;
     }
 }
-
 
 /**
  * @parram {string} 
