@@ -58,13 +58,23 @@ function selectWinnerBoxes(b1, b2, b3) {
     b3.classList.add("win");
 
     turn.innerHTML = (xTurn === true ? "O" : "X") + " Won Congrats";
+**
 
     if (xTurn) {
-        xWinsCount ++;
-    } else {
-        oWinsCount ++;
-    }
+       Swal.fire({ "Swal": Unkown word.
+       posititon: 'center',
+       title: 'O Wins',
+       showConfirmButton: false,
+       timer:2500,
+       })
 
+    } else {
+        Swal.fire({ "Swal": Unkown word.
+       posititon: 'center',
+       title: 'X Wins',
+       showConfirmButton: false,
+       timer:2500,})
+    }
     updateWinCount();
 }
 
