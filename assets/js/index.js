@@ -39,18 +39,17 @@ for (let i = 0; i < boxes.length; i++) {
 }
 
 /**
- * 
- * @param {string} target element to highlight 
+ *
+ *@param {string} target element to highlight 
  */
-
 function highlighter(target) {
   target.classList.contains('high')? target.classList.remove('high'): target.classList.add('high')
 }
 
 /**
- @param {string} Clears boxes and resets game
+ *
+ *@param {string} Clears boxes and resets game
  */
-
 function clearBoxes() {
     var boxLen = boxes.length;
     while (boxLen --) {
@@ -67,12 +66,20 @@ if (!xTurn) {
   
   updateTurnText();
 }
-
-
+/**
+ * 
+ Just an update TurnTEXT
+ */
 function updateTurnText() {
     turn.innerHTML = xTurn === true ? "X turn" : "O turn";
 }
 
+/**
+ * 
+ * @param {string} b1 box input
+ * @param {string} b2 box input
+ * @param {string} b3 box input
+ */
 function selectWinnerBoxes(b1, b2, b3) {
     b1.classList.add("win");
     b2.classList.add("win");
@@ -81,7 +88,7 @@ function selectWinnerBoxes(b1, b2, b3) {
     turn.innerHTML = (xTurn === true ? "O" : "X") + " Won Congrats";
 
     if (xTurn) {
-       Swal.fire({ "Swal": Unkown word.
+       Swal.fire({ "Swal":
        posititon: 'center',
        title: 'O Wins',
        showConfirmButton: false,
@@ -89,20 +96,33 @@ function selectWinnerBoxes(b1, b2, b3) {
        })
 
     } else {
-        Swal.fire({ "Swal": Unkown word.
+        Swal.fire({ "Swal": 
        posititon: 'center',
        title: 'X Wins',
        showConfirmButton: false,
-       timer:2500,})
-    }
-    updateWinCount();
+       timer:2500,
+    })
+    
+    updateWinCount(turn);
 }
-
+     updateWinCount();
+}
+/**
+ * @param {*} xWins oWins counter
+ */
 function updateWinCount() {
-    xWins.innerHTML = xWinsCount;
-    oWins.innerHTML = oWinsCount;
+    if (xWins) {
+        xWins.innerHTML = ++ xWinsCount;
+    } else {
+        oWins.innerHTML = ++ oWinsCount;
+
+    }
 }
 
+
+/**
+ * @parram {string} 
+ */
 function getWinner() {
     if (box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1.innerHTML === box3.innerHTML)
         selectWinnerBoxes(box1, box2, box3);
