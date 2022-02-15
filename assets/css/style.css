@@ -144,7 +144,6 @@
         }     
 /*------------------------- Image Index  -------------------------------------*/
         .jumbotron-fluid {
-          
           width: 50vw;
           height: 50vh;
           display: inline-block; 
@@ -152,7 +151,6 @@
         }
 
         .landing {
-          
           width: 100%;
           height: 100% ;
           padding: 20px 20px 20px 20px;
@@ -203,6 +201,30 @@
           width: 70%;
           
         }
+
+        .rules-modal {
+          border: 1px solid gray;
+          padding: 8px;
+          display: flex;
+          align-items: center;
+        }
+        
+        h4 {
+          text-align: center;
+          text-transform: uppercase;
+          color: #4CAF50;
+        }
+        
+        p {
+          text-indent: 50px;
+          text-align: justify;
+          letter-spacing: 7px;
+        }
+        
+        a {
+          text-decoration: none;
+          color: #008CBA;
+        }
        
         form {
           position: relative;
@@ -216,6 +238,15 @@
         .contact-header {
           margin-top: 10px;
         }
+
+        .container{
+
+        }
+
+        #start{
+          text-align: center;
+          padding: 10px;
+        }
 /*---------------------------  Footer  ---------------------------------------*/
         .footer{
           height: 150px;
@@ -227,6 +258,7 @@
 
         .social-networks li {
           display: inline;
+          
 
         }
         .social-networks i {
