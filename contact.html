@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
        <meta charset="UTF-8">
        <meta name="viewport" contact="width=device-width, initial-scale=1.0">
-       <meta name="descriptoin" content="Pass the Time">
+       <meta name="description" content="Pass the Time">
        <meta name="keywords" content="problem solving">
-
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,10 +14,11 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
         <title> Mini Games| Dish-Tac-Toe</title>
-    </head>
+ </head>
 
 <body>
-  <header>
+
+<header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light text-black">
         <div class="container-fluid">
           <a href="index.html"><span class="sr-only">(current)</span>
@@ -26,57 +26,63 @@
                   <i class="fas fa-dice"></i></a>
                     <a class="navbar-brand" href="index.html"></a>
                         <button class="navbar-toggler hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigetion">
-                        <span class="navbar-toggler-icon"><span>                
+                    <span class="navbar-toggler-icon"></span>                
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav"> 
-                       <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-inline">
-                       <li class="nav-link">
+                             <div class="collapse navbar-collapse" id="navbarNav"> 
+                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-inline">
+                             <li class="nav-link">
                  <a class="nav-link active" href="game.html">Game</a>
-              </li>
-          <li class="nav-link">
-        <a class="nav-link active" href="contact.html">Contact<a>
-      </li>
-    </ul> 
+                         </li>
+                     <li class="nav-link">
+                 <a class="nav-link active" href="contact.html">Contact</a>
+             </li>
+         </ul> 
+     </div>
   </nav>
 </header>
 <!---  About us box. --->
 
-<section>
+<section class="container text-center main-container">
     <div id="rules-modal">
          <div class="rules-mdal-content">
             <span class="close">&times;</span>
-                <h4 class="text-center"></h4>
-                    <ul claas="rules-list">
-                    <p>
-                    We are a small design company that loves old school games, we're trying to bring a twist back to the 20th century.
-                    </p>   
-                    <p>
-                    Tic tac toe is by no means an unfamiliar game we're trying to help couples and siblings settle arguments about their chores & have some fun while it's been accomplish.
+                <!-- <h4 class="text-center"></h4>. -->
+                    <ul class="rules-list">
+                    <h3 class="title">
+                    <br>
+                    <p> We are a small design company that loves old school games, we're trying to bring a twist back to the 20th century.
                     </p>
-                    <p>
-                    Basic rules apply you have three "X" or "O" to match for a winner, we plan to implement more games in the future such as the legendary snake game!
+                    <br>
+                    <p>Tic tac toe is by no means an unfamiliar game we're trying to help couples and siblings settle arguments about their chores & have some fun while it's been accomplish.
                     </p>
+                    </h3>
             </ul>            
         </div>
     </div>
+    <br>
 </section>
 <!--- Contact us box --->
 
-        <section class="container" >
-            <h2 class="contact-header">How can We Help!</h2>
-                <form onsubmit="return sendMail(this);">
+<section class="container" >
+    <h2 class="contact-header">How can We Help!</h2>
+        <form onsubmit="return sendMail(this);">
 
-                 <input type="text" class="form-control" id="fullname" placeholder="Name:" name="name" required/>
+            <input type="text" class="form-control" id="fullname" placeholder="Name:" name="name" required/>
 
-                 <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email:" required/>
+            <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email:" required/>
 
             <textarea rows="6" name="messageInformation" id="messageInformation" class="form-control" placeholder="Messeage here..."></textarea>
             <br>
             <button type="submit" id="submit-form" class="btn form-btn btn-primary">Send</button>
             </form>
-        </section>
-    
+</section>
+    <div class="container text-center main-container">
+        <div class="row">
+        <div class="col-12"> 
          <img class="img-fluid" src="assets/image/topwin/topwins.png"  alt="controller">
+        </div>
+      </div>
+    </div>
 <!--- Footer --->
 
     <footer>
