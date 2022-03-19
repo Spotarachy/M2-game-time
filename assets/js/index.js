@@ -1,4 +1,3 @@
-
 const turn = document.getElementById("turn");
 const xWins = document.getElementById("x_wins");
 const oWins = document.getElementById("o_wins");
@@ -31,9 +30,8 @@ for (let i = 0; i < boxes.length; i++) {
         }
         this.innerHTML = xTurn === true ? "X" : "O";
         xTurn = !xTurn;
-        highlighter(xIcon)
-        highlighter(oIcon)
         updateTurnText();
+        flipIcon();
         getWinner();
     };
 }
@@ -51,19 +49,29 @@ function highlighter(target) {
  *@param {string} Clears boxes and resets game
  */
 function clearBoxes() {
-    var boxLen = boxes.length;
+   let boxLen = boxes.length;
     while (boxLen--) {
-        boxes[boxLen].innerHTML = '';
+        boxes[boxLen].innerHTML ='';
         boxes[boxLen].classList.remove('win');
     }
     if (!xTurn) {
     xTurn = turn
-        if(!xIcon.classList.contains('high')){
-        xIcon.classList.add('high');
-        oIcon.classList.remove('high');
-        }
-  }
-  updateTurnText();
+        if (!xIcon.classList.contains('fa-times')) {
+            xIcon.classList.add('fa-times');
+            oIcon.classList.remove('fa-circle');
+        }  
+    }
+    updateTurnText();
+}
+
+function flipIcon() {
+    if (xIcon.classList.contains('fa-times')) {
+        xIcon.classList.remove('fa-times')
+        xIcon.classList.add('fa-circle')
+    } else {
+        xIcon.classList.remove('fa-circle')
+        xIcon.classList.add('fa-times')
+    }
 }
 
 /**
@@ -94,7 +102,7 @@ function selectWinnerBoxes(b1, b2, b3) {
        showConfirmButton: false,
        timer: 2500,
     })
-    updateWinCount(false)
+    updateWinCount(true)
 
     } else {
         Swal.fire({
@@ -103,9 +111,9 @@ function selectWinnerBoxes(b1, b2, b3) {
        showConfirmButton: false,
        timer: 2500,
     })
-    updateWinCount(turn)
+    updateWinCount(false)
 }
-updateWinCount();
+
 }
 
 /**
@@ -113,14 +121,14 @@ updateWinCount();
  */
 function updateWinCount(xWins) {
     if (xWins) {
-        xWins.innerHTML = ++xWinsCount;
+        xWinsCounter.innerHTML = ++xWinsCount;
     } else {
-        oWins.innerHTML = ++oWinsCount;
+        oWinsCounter.innerHTML = ++oWinsCount;
     }
 }
 
 /**
- * @parram {string} 
+ * @param {string} 
  */
 function getWinner() {
     if (box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1.innerHTML === box3.innerHTML)
