@@ -20,6 +20,7 @@ let boxes = document.querySelectorAll(".box");
 var xTurn = false;
 var xWinsCount = 0;
 var oWinsCount = 0;
+var NoWins = 0;
 
 clearBoxes();
 
@@ -61,6 +62,8 @@ function clearBoxes() {
             oIcon.classList.remove('fa-circle');
         }  
     }
+    xTurn = Math.random() < 0.5;
+
     updateTurnText();
 }
 
@@ -112,6 +115,24 @@ function selectWinnerBoxes(b1, b2, b3) {
        timer: 2500,
     })
     updateWinCount(false)
+
+    if (Tie) {
+        Swal.fire({
+            title: 'You TiE.',
+            width: 600,
+            padding: '3em',
+            color: '#B0C4DE',
+            background: '#777 url(https://sweetalert2.github.io/#iconsimages/trees.png)',
+            backdrop: `
+              
+              url("https://sweetalert2.github.io/#iconsimages/nyan-cat.gif")
+              left top
+              no-repeat
+            `
+          })
+
+        updateWinCount(true)
+    }
 }
 
 }

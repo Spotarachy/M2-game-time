@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html land="en">
+<html lang="en">
 
 <head>
      <meta charset="UTF-8">
-     <meta name="viewport" contact="width=device-width, initial-scale=1.0">
-     <meta name="description" content="Pass the Time">
-     <meta name="keywords" content="problem solving">
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <meta name="description" content="Pass the Time"/>
+     <meta name="keywords" content="problem solving"/>
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
      <link rel="stylesheet" href="assets/css/style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
-     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    
      <title> Mini Games| Dish-Tac-Toe</title>
  </head>
  
-<!--- Header --->
 <body>  
 
 <header>
@@ -26,12 +25,11 @@
                     <i class="fas fa-dice"></i>
                 </a>
                 <a class="navbar-brand" href="index.html"></a>      
-                        <!--- Button is form Boostrap --->
-                        <button class="navbar-toggler hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigetion" inlign="text-right">
-                        <span class="navbar-toggler-icon"><span>                
+                        <button class="navbar-toggler hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>               
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav"> 
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-inline">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-link">
                         <a class="nav-link active" href="game.html">Game</a>
                         </li>
@@ -44,46 +42,16 @@
         </nav>
  </header>
 
-<!----  About us box. --->
-<!---
-<section>
-    <div id="rules-modal" class="modal hide">
-        <div class="rules-mdal-content">
-            <span class="close">&times;</span>
-                <h4 class="text-center">About US</h4>
-                    <ul class="rules-list">
-                        <li>
-                        <p>
-                        We are a small design company that loves old school games, we're trying to bring a twist back to the 20th century.
-                        </p>   
-                        </li>
-                        <li>
-                        <p>
-                        Tic tac toe is by no means an unfamiliar game we're trying to help couples and siblings settle arguments about their chores & have some fun while it's been accomplish.
-                        </p>
-                        </li>
-                        <li>
-                        <p>
-                        Basic rules apply you have three "X" or "O" to match for a winner, we plan to implement more games in the future such as the legendary snake game!
-                    </p>
-                </li>
-            </ul>            
-        </div>
-    </div>
-</section> -->
-
-<!--- Body ---->
 <section class="container-fluid text-center main-container">
 <br>    
          <h1 class="title"> <b>Steps</b></h1>
             <br>
             <h2 class="title">
-                To Start playing click the "Start" button,
-                if you with like to Restart the game click on "Play Again".
+                To Start playing click the "Start" button.
             </h2>
             <br>
             <div class="container align-items-center">  
-                <button type="button" class="btn btn-primary" href="game.html" id="start">Start</button> 
+                <button type="button" class="btn btn-primary" id="start">Start</button> 
                 <div class="clear"></div>
             </div>
             <br>
@@ -104,34 +72,32 @@
             <div class="box" id="box8"></div>
             <div class="box" id="box9"></div>
         </div>
-    </div>
+        <div class="clear"></div>
 
-    <div class="container-fluid align-items-center">
-        <div class="row">
-            <div class="col-4 align-self-center text-center">
-            <i class="fas fa-circle turn-icon high player-icon" id="x"></i>
-            <h3>Turn</h3>
+        <div class="container-fluid align-items-center">
+            <div class="row">
+                <div class="col-4 align-self-center text-center">
+                <i class="fas fa-circle turn-icon high player-icon" id="x"></i>
+                <h3>Turn</h3>
+            </div>
         </div>
-    <div class="col-sm-12 col-md-4 align-self-center text-center">
+    </div>
+    <div class="col-sm-12 col-md-4">
         <i class="far fa-times turn-icon player-icon" id="circle"></i>
     </div>
-    
+
     <div id="turn"></div>
+        <div class="WinCount">
             <section class="score">
-                <div>SCORE</div>
-                <div class="x-score">Player O : <span id="x_wins">0</span></div>
-                <div class="o-score">Player X : <span id="o_wins">0</span></div>
+                <h4>SCORE</h4>
+                <div class="x-score">Player X : <span id="x_wins">0</span></div>
+                <div class="o-score">Player O : <span id="o_wins">0</span></div>
             </section>
-            <section class="pop-up align-items-center" id="click">
-                <p>TIE!</p>
-                <button type="button" class="btn btn-warning">Play again</button>
-                <div class="clear"></div>
-            </section>
+        </div>
         </div>
     </div>
 </section>
 
-<!--- Footer --->
 <footer>
     <div>
         <ul class="social-networks">
