@@ -84,8 +84,6 @@ About
       
    * [Acknowledgements](#Acknowledgement)
 
-
-
 ---
 
 ```
@@ -255,27 +253,28 @@ Wirefram was made by balsamiq:
 ![Landing page](assets/image/wireframes/W1.png)
 
 2.** Mobile:**
-![Landing page](assets/image/wireframes/M1.png)
 
 ---
 ``` 
 Features
 ```
 
-
 ## VALIDATORS 
 
  These are validating websites that were used to validate my website properly.
 
    * HTML Validator
-   ![Example](assets/Bugs/testing/test/contact.png)
+   [Example](/Bugs/testing/test/index.png)
+
+   
+   * HTML Validator
+   [Example](/Bugs/testing/test/game.png)
 
    * HTML Validator
-   ![Example](assets/Bugs/testing/test/game.png)
+   [Example](/Bugs/testing/test/contact.png)
 
-   * HTML Validator
-   ![Example](assets/Bugs/testing/test/test.CSS.png)
-  
+   * CSS Validator
+   [Example](/Bugs/testing/test/test.CSS.png)
 
    * HTML Validator 
    [HTML Validation](https://jsonformatter.org/html-validator)
@@ -299,6 +298,7 @@ Features
    [JS Code](https://jshint.com/)
    
    * JSHint, a tool that helps to detect errors and potential problems in your JavaScript code."
+
    [JS Hint](https://validator.w3.org)
 
    ![w3](./assets/image/testing/01.png)
@@ -312,8 +312,6 @@ Aware of several known bugs in the course of making this website, I will link a 
 
 [Known Bugs](https://github.com/Spotarachy/M2-game-time/blob/master/None.Bugs.html)
 
-
- 
 ---
 ```
 Development
@@ -328,7 +326,6 @@ https://spotarachy.github.io/M2-game-time/index.html
 
 ## CREDIT
 
-
 ### Image Credit
 
 Would like to give credit to:
@@ -337,9 +334,8 @@ Pexels operates the website www.pexels.com ("Website"), a platform that allows y
 
 (Note! Phrase from original website)
 * Web page
-[Pexels](https://www.pexels.com/)
 
-![Example](assets/image/game/gen1.png)
+[Pexels](https://www.pexels.com/)
 
 
 ### Colour Credit 
@@ -350,8 +346,10 @@ Color-hex gives information about colors including color models (RGB,HSL,HSV and
 
 (Note! Phrase from original website)
 * Web page
+
 [Color-hex](https://www.color-hex.com/)
 * Terms of Services
+
 [Color-hex](https://www.color-hex.com/privacy.php)
 
 
@@ -361,6 +359,7 @@ Would like to give credit to:
 
 * Web page
 [Colors](https://coolors.co/)
+
 * Terms of Services
 [Colors](https://coolors.co/terms-of-service)
 
