@@ -56,15 +56,18 @@
           font-family: Georgia, 'Times New Roman', Times, serif;
           
         }
- /*-- js table --*/      
+ /*-- js table --*/   
+
         .board {
-          margin: 20px auto;    
+          margin: 50px auto;
+          width: 37.5%;
+          display: block;
         }
 
         .board .box-row {
           clear: both;
         }
-
+        
         .board .box-row .box {
           display: block;
           height: 100px;
@@ -78,7 +81,24 @@
           padding-top: 1.5rem;
           font-size: 3rem;
         }
-
+        @media only screen and (max-width: 480px) {
+          .landing {
+            max-width: 100%;  
+            height: auto
+          }
+      
+          .board .box-row {
+            clear: both;
+          }
+       
+          .board .box-row .box {
+            height: 50px;
+            width: 50px;
+            font-size: 1rem;
+            padding: 0;
+          }
+        }
+        
         .clear {
           clear: both;
         }
@@ -276,22 +296,5 @@
           color: #007bff;
         }
 
-        @media only screen and (max-width: 480px) {
-          .landing {
-            max-width: 100%;  
-            height: auto
-          }
-      
-          .board .box-row {
-            clear: both;
-          }
-       
-          .board .box-row .box {
-            height: 50px;
-            width: 50px;
-            font-size: 1rem;
-            padding: 0;
-          }
-        }
-        
+
 
