@@ -267,6 +267,16 @@ Features
 
  These are validating websites that were used to validate my website properly.
 
+   * HTML Validator
+   ![Example](assets/Bugs/testing/test/contact.png)
+
+   * HTML Validator
+   ![Example](assets/Bugs/testing/test/game.png)
+
+   * HTML Validator
+   ![Example](assets/Bugs/testing/test/test.CSS.png)
+  
+
    * HTML Validator 
    [HTML Validation](https://jsonformatter.org/html-validator)
 
@@ -301,6 +311,8 @@ Features
 Aware of several known bugs in the course of making this website, I will link a code to the source code.
 
 [Known Bugs](https://github.com/Spotarachy/M2-game-time/blob/master/None.Bugs.html)
+
+
  
 ---
 ```
@@ -354,6 +366,7 @@ Would like to give credit to:
 
 ## ACKNOWLEDGEMENT
 
+I would like to acknowledge all the support of Mentor Richard Wells.
 
 I must Acknowledge tinyPNG which is a really cool website to make your photos smaller.
 
