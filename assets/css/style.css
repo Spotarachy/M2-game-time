@@ -12,7 +12,7 @@
           background-color: #B0C4DE;
         }
 
-  /*--- Example for w3schools.com ----*/
+  /*-- Example for w3schools.com --*/
 
         html,body {
           height: 100%;
@@ -31,7 +31,7 @@
         .section {
           height:100vh;
         }
-  /*-------------------------------------*/
+  /*----*/
         h1 {
           text-align: center;
           font-style: italic;
@@ -46,7 +46,6 @@
         }
 
         h2 {
-          border: top 2px;
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           text-transform: uppercase;
           letter-spacing: 4px;
@@ -55,9 +54,9 @@
 
         h4,h5,h6 {
           font-family: Georgia, 'Times New Roman', Times, serif;
-          font-display: #333;
+          
         }
- /*------------------------ js table --------------------------------*/      
+ /*-- js table --*/      
         .board {
           margin: 20px auto;    
         }
@@ -110,7 +109,7 @@
           text-align: center;
           position: fixed;
         }
-  /*----------------------- logo' & Menu-------------------------------*/      
+  /*--- logo' & Menu --*/      
         .title {
           color: #777777;
         }
@@ -148,7 +147,7 @@
           background-color: #f9690e !important; 
           color: #ffffff !important;
         }     
-/*------------------------- Image Index  -------------------------------------*/
+/*--- Image Index ---*/
         .jumbotron-fluid {
           width: 50vw;
           height: 50vh;
@@ -164,7 +163,7 @@
           background-color: #F0F8FF; 
         }
         
-/*----------------------- Image Contact ------------------------------------*/ 
+/*--- Image Contact ---*/ 
         .modal-hide {
           width: 50vw;
           height: 50vh;
@@ -182,7 +181,7 @@
           background-color: #F0F8FF;  
         }
 
-/*--------------------------- Contact  --------------------------------------*/ 
+/*--- Contact ---*/ 
 
         .modal {
           position: fixed;
@@ -249,7 +248,7 @@
           text-align: center;
           padding: 10px;
         }
-/*---------------------------  Footer  ---------------------------------------*/
+/*---  Footer ---*/
         .footer{
           height: 150px;
         }
