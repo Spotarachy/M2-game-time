@@ -21,5 +21,14 @@
    },
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Default Light+",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "cSpell.words": [
+      "balsamiq",
+      "colours",
+      "Matteson",
+      "Pexels",
+      "Tinypng",
+      "Typographics",
+      "WIREFRAMS"
+   ]
 }

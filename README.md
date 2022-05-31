@@ -111,45 +111,35 @@ By giving our visitors a fun way to interact and to play games, best out of thre
    7. Is the website easy to understand.
    8. Does it have quick responses.
    9. How's the design.
-   10. How involved with the design with the end user in mine.
-   11. All the links should work.
-   12. Easy to navigate.
-   13. Not confusing.
-   14. Simple. 
-   15. Interactive.
+   10. All the links should work.
+   11. Easy to navigate.
+   12. Not confusing.
+   13. Simple. 
+   14. Interactive.
 
 
 * ## Returning visitor:
 
-   16. I want to see my top score for my last visit.
-   17. Will the website remember my username. 
-   18. It simplifies the way we wash dishes.
-   19. Easy way to stop an argument.
-   20. It made us laugh.
-   21. They gave us a jolly old time alright!
-   22. Will keep coming back to see if more games has been added.
+   15. I want to see my score of wins. 
+   16. It's simplifies the way we decide who is going to wash the dishes.
+   18. Easy way to stop an argument.
+   19. It made us laugh.
+   20. Will keep coming back to see if more games has been added.
 
   
 * ## Frequent Users :
 
-
-   23. To see how the site has developed from the first time we have been invited to it.
-   24. Enjoy the interaction. 
-   25. Like to see all the new scores and new people using the website.
-   26. Being able to keep track of their wins.
-   27. Want to keep update with stories from other users.
-   28. Want to be able to link my Facebook to this game.
-   29. Kept in the loop of updates to the website or if the site is gonna go down.
+   21. Want to be able to link my Facebook to this game.
+   22. Want to ask questions to the developer of the website or if the site is gonna go down.
    
 
 * ## Site Owner Goal:
 
-   30. As site owner, I want to give people back time to spend together.
-   31. As site owner, I wanted to be easy to navigate and very responsive.
-   32. To make this website a hit and implement more mind games.
-   33. To be able to build on a platform created and expanded.
-   34. Find ways to better innovate the website into apps.
-   35. Have an interchange of encouragement you our users.
+   23. As site owner, I want to give people back time to spend together.
+   24. As site owner, I wanted it to be easy to navigate.
+   25. To make this website a hit and implement more mind games.
+   26. Find ways to better innovate the website into apps.
+   27. Have an interchange of encouragement you our users.
 
 
 ---
@@ -188,7 +178,7 @@ The colours used for this website are from two different types of websites for c
    7. #F9690E rgb (249 ,105,14)[Click Me](https://www.color-hex.com/color/f9690e)
 
 
-* Full colour graph:
+* Full colours graph:
 
 ![alt](assets/image/colour/colours.png)
 
@@ -247,7 +237,7 @@ All items provided came from across the websites such as bootstraps and font awe
 
 ## WIREFRAMS 
 
-Wirefram was made by balsamiq:
+Wireframs was made by balsamiq:
 
 1.** WebSite:**
 ![Landing page](assets/image/wireframes/W1.png)
@@ -338,7 +328,7 @@ Pexels operates the website www.pexels.com ("Website"), a platform that allows y
 [Pexels](https://www.pexels.com/)
 
 
-### Colour Credit 
+### Colours Credit 
 
 Would like to give credit to:
 

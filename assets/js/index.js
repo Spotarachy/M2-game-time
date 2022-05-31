@@ -17,10 +17,11 @@ const box9 = document.getElementById("box9");
 
 let boxes = document.querySelectorAll(".box");
 
-var xTurn = false;
-var xWinsCount = 0;
+let xTurn = true;
+let xWinsCount = 0;
 var oWinsCount = 0;
 var NoWins = 0;
+let canPlay = false;
 
 clearBoxes();
 
@@ -57,7 +58,7 @@ function clearBoxes() {
     }
     if (!xTurn) {
     xTurn = turn
-        if (!xIcon.classList.contains('fa-times')) {
+        if (xIcon.classList.contains('fa-times')) {
             xIcon.classList.add('fa-times');
             oIcon.classList.remove('fa-circle');
         }  
