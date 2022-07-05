@@ -19,9 +19,9 @@ let boxes = document.querySelectorAll(".box");
 
 let xTurn = false;
 let xWinsCount = 0;
-var oWinsCount = 0;
-var NoWins = 0;
-let canPlay = false;
+let oWinsCount = 0;
+let NoWins = 0;
+let canPlay = false
 
 clearBoxes();
 
@@ -29,7 +29,6 @@ for (let i = 0; i < boxes.length; i++) {
     boxes[i].onclick = function () {
         console.log(canPlay) 
         if (canPlay) {
-
             if (!this.innerHTML === '') {
                 return
             }
@@ -41,7 +40,6 @@ for (let i = 0; i < boxes.length; i++) {
         }
     };
 }
-
 /**
  *
  *@param {string} target element to highlight 
@@ -57,7 +55,7 @@ function highlighter(target) {
 function clearBoxes() {
    let boxLen = boxes.length;
     while (boxLen--) {
-        boxes[boxLen].innerHTML ='';
+        boxes[boxLen].innerHTML = '';
         boxes[boxLen].classList.remove('win');
     }
     if (!xTurn) {
@@ -68,6 +66,7 @@ function clearBoxes() {
         }  
     }
     xTurn = Math.random() < 0.5;
+
     canPlay = true
     updateTurnText();
 }
@@ -207,7 +206,6 @@ function drawGame() {
         replay()
     })
 }
-
 document.getElementById("start").addEventListener("click", function () {
     clearBoxes();
 });
