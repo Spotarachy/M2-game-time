@@ -17,7 +17,7 @@ const box9 = document.getElementById("box9");
 
 let boxes = document.querySelectorAll(".box");
 
-let xTurn = true;
+let xTurn = false;
 let xWinsCount = 0;
 var oWinsCount = 0;
 var NoWins = 0;
@@ -27,14 +27,18 @@ clearBoxes();
 
 for (let i = 0; i < boxes.length; i++) {
     boxes[i].onclick = function () {
-        if (!this.innerHTML === '') {
-            return
+        console.log(canPlay) 
+        if (canPlay) {
+
+            if (!this.innerHTML === '') {
+                return
+            }
+            this.innerHTML = xTurn === true ? "X" : "O";
+            xTurn = !xTurn;
+            updateTurnText();
+            flipIcon();
+            getWinner();
         }
-        this.innerHTML = xTurn === true ? "X" : "O";
-        xTurn = !xTurn;
-        updateTurnText();
-        flipIcon();
-        getWinner();
     };
 }
 
@@ -64,7 +68,7 @@ function clearBoxes() {
         }  
     }
     xTurn = Math.random() < 0.5;
-
+    canPlay = true
     updateTurnText();
 }
 
@@ -98,54 +102,59 @@ function selectWinnerBoxes(b1, b2, b3) {
     b3.classList.add("win");
 
     turn.innerHTML = (xTurn === true ? "O" : "X") + " Won Congrats";
+    canPlay = false
 
     if (xTurn) {
        Swal.fire({
-       posititon: 'center',
-       title: 'O Wins',
-       showConfirmButton: false,
-       timer: 2500,
-    })
+            posititon: 'center',
+            title: 'O Wins',
+            showConfirmButton: false,
+            timer: 2500,
+        }).then(() => {
+            replay()
+        })
     updateWinCount(true)
 
     } else {
         Swal.fire({
-       posititon: 'center',
-       title: 'X Wins',
-       showConfirmButton: false,
-       timer: 2500,
-    })
-    updateWinCount(false)
-
-    if (Tie) {
-        Swal.fire({
-            title: 'You TiE.',
-            width: 600,
-            padding: '3em',
-            color: '#B0C4DE',
-            background: '#777 url(https://sweetalert2.github.io/#iconsimages/trees.png)',
-            backdrop: `
-              
-              url("https://sweetalert2.github.io/#iconsimages/nyan-cat.gif")
-              left top
-              no-repeat
-            `
-          })
-
-        updateWinCount(true)
+            posititon: 'center',
+            title: 'X Wins',
+            showConfirmButton: false,
+            timer: 2500,
+        }).then(() => {
+            replay()
+        })
+        updateWinCount(false)
     }
 }
 
+function replay() {
+    Swal.fire({
+        title: 'Game Over',
+        icon: 'success',
+        html: 'Do you want to play agin?',
+        showCloseButton: false,
+        showCancelButton: true,
+        focusConfirm: false,
+        confirmButtonText: 'Yes',
+        confirmButtonAriaLabel: 'Yes',
+        cancelButtonText: 'No',
+        cancelButtonAriaLabel: 'Yes',
+    }).then((result) => {
+        if (result.inConfirmed) {
+            clearBoxes()
+        }
+    })
 }
 
 /**
  * @param {*} xWins oWins counter
  */
-function updateWinCount(xWins) {
-    if (xWins) {
-        xWinsCounter.innerHTML = ++xWinsCount;
+function updateWinCount(xIsWins) {
+    if (xIsWins) {
+        xWins.innerHTML = ++xWinsCount;
     } else {
-        oWinsCounter.innerHTML = ++oWinsCount;
+        oWins.innerHTML = ++oWinsCount;
     }
 }
 
@@ -176,6 +185,27 @@ function getWinner() {
 
     if (box3.innerHTML !== "" && box3.innerHTML === box5.innerHTML && box3.innerHTML === box7.innerHTML)
         selectWinnerBoxes(box3, box5, box7);
+
+        let takenBoxes = 0
+
+        boxes.forEach((item) => {
+        if (item.innerHTML) {
+            takenBoxes++
+        }
+    })
+    if (takenBoxes == 9){
+        drawGame()
+        }
+    }
+function drawGame() {
+    Swal.fire({
+        posititon: 'center',
+        title: 'Just like coding, nobody wins',
+        showConfirmButton: false,
+        timer: 2500,
+    }).then(() => {
+        replay()
+    })
 }
 
 document.getElementById("start").addEventListener("click", function () {

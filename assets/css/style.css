@@ -125,7 +125,8 @@
           left: 20px;
           padding: 20px;
         }
-        .button{
+
+        .button {
           text-align: center;
           position: fixed;
         }
@@ -295,6 +296,7 @@
         .high {
           color: #007bff;
         }
+/*         
 .icon {
     display: inline-block;
     font-size: 44px;
@@ -316,5 +318,5 @@
     100%{
       transform: translate(0);
       }
-    }
+    } */
 
