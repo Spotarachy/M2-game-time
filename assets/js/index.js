@@ -69,6 +69,7 @@ function clearBoxes() {
 
     canPlay = true
     updateTurnText();
+    flipIcon();
 }
 
 function flipIcon() {
