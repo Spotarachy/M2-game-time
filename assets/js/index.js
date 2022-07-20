@@ -32,7 +32,7 @@ for (let i = 0; i < boxes.length; i++) {
             if (!this.innerHTML === '') {
                 return
             }
-            this.innerHTML = xTurn === true ? "X" : "O";
+            this.innerHTML = xTurn === true ? "O" : "X";
             xTurn = !xTurn;
             updateTurnText();
             flipIcon();
