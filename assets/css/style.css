@@ -93,7 +93,7 @@
             font-size: 1rem;
             padding: 0;
           }
-        }
+        
         
         .clear {
           clear: both;
@@ -298,10 +298,3 @@
     height: auto
   }
 }
-/* @media screen and (max-width: 370px) {
-  .box-row {
-    width: auto;
-    height: auto;
-    text-align: center;
-  }
-} 
