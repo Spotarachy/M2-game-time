@@ -60,7 +60,7 @@
 
         .board {
           margin: 50px auto;
-          width: 50%;
+          width: 63%;
           display: block;
         }
 
@@ -293,7 +293,7 @@
           color: #007bff;
         }
 @media all and (max-width: 480px) {
-  .landing {
+  .box-row {
     max-width: 100%;  
     height: auto
   }
