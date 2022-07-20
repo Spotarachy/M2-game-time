@@ -63,7 +63,7 @@ About
   * [Features](#Features)
   * [Validator](#validator)
   * [Testing](#Testing)
-  * [Further-testing](#Further-testing)
+  * [further-testing](#further-testing)
 
      1. index.html
 
@@ -294,6 +294,9 @@ Features
    ![w3](./assets/image/testing/01.png)
 
    ![Css W3](./assets/image/testing/02.png)
+
+   * Further-testing:
+   Friends and family download the game in for the test if it's responsive and work in their home for Friends and family download the game, & tested if it's responsive and work on their home pc.
     
 
 ## KNOWN BUGS 

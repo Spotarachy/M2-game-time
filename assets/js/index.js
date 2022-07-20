@@ -32,7 +32,7 @@ for (let i = 0; i < boxes.length; i++) {
             if (!this.innerHTML === '') {
                 return
             }
-            this.innerHTML = xTurn === true ? "O" : "X";
+            turn.innerHTML = xTurn === true ? "X" : "O";
             xTurn = !xTurn;
             updateTurnText();
             flipIcon();
@@ -141,7 +141,7 @@ function replay() {
         cancelButtonAriaLabel: 'Yes',
     }).then((result) => {
         if (result.inConfirmed) {
-            clearBoxes()
+            location.reload()
         }
     })
 }
